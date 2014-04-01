@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="1654" delta="new" >"C:\Users\tariqmuh\Documents\GitHub\Vmod_in_HDMI_100MHz\hdl\system_disp_map_calc_0_wrapper.v" Line 41: Instantiating &lt;<arg fmt="%s" index="1">Disp_Map_Calc_0</arg>&gt; from unknown module &lt;<arg fmt="%s" index="2">disp_map_calc</arg>&gt;
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"C:\Users\tariqmuh\Documents\GitHub\Vmod_in_HDMI_100MHz\hdl\system_disp_map_calc_0_wrapper.v" Line 5: Empty module &lt;<arg fmt="%s" index="1">system_disp_map_calc_0_wrapper</arg>&gt; remains a black box.
+</msg>
+
+</messages>
+
