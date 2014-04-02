@@ -56,6 +56,7 @@ ExternalMemSim: 0
 UcfFile: data/system.ucf
 EnableParTimingError: 1
 ShowLicenseDialog: 1
+LockAddr: MCB_DDR2,C_S0_AXI_BASEADDR
 ICacheAddr: MCB_DDR2,C_S0_AXI_BASEADDR
 ICacheAddr: MCB_DDR2,C_S1_AXI_BASEADDR
 ICacheAddr: MCB_DDR2,C_S2_AXI_BASEADDR

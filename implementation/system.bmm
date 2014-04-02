@@ -1,4 +1,4 @@
-// File: C:\Users\tariqmuh\Documents\GitHub\Vmod_in_HDMI_100MHz\implementation\system.bmm
+// File: C:\Users\tariqmuh\Documents\GitHub\Full_System\implementation\system.bmm
 
 ADDRESS_MAP microblaze_0 MICROBLAZE-LE 100
 	ADDRESS_SPACE microblaze_0_bram_block_combined COMBINED [0x00000000:0x0000ffff]

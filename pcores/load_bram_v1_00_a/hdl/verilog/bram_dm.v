@@ -186,7 +186,12 @@ begin : FSM
 			
 		DONE:
 			if (~busy) begin
-				next_state = NEXT;
+				if((comp_p_col == (HRES - 1 - window_half)) & (comp_p_row == (VRES - 1 - window_half))) begin
+					next_state = IDLE;
+				end
+				else begin
+					next_state = NEXT;
+				end
 			end
 			else begin
 				next_state = BUSY;
@@ -239,7 +244,7 @@ begin
 		finished_row 				<= 0;
 		en_search 					<= #2 0;
 		start_addr 					<= start_addr;
-		counter 						<= counter;
+		counter 					<= counter;
 		comp_p_row 					<= comp_p_row;
 		comp_p_col 					<= comp_p_col;
 		win_row_index 				<= win_row_index;
@@ -385,16 +390,37 @@ begin
 				counter 					<= #2 0;
 				win_count 				<= #2 0;
 				lowest_disp 			<= #2 'hFFF;
-				lowest_disp_index 	<= #2 63;
-				address_counter		<= 1;
+				lowest_disp_index 		<= #2 63;
+				address_counter			<= 1;
 				address_win_count		<= 0;
 				win_row_index 			<= 0;
 				win_col_index 			<= 0;
 				
 				if (comp_p_col == (HRES - 1 - window_half)) begin
 					comp_p_col <= #2 window_half + (NUM_OF_WIN-1);
-					
 					if (comp_p_row == (VRES - 1 - window_half)) begin
+						start_addr 					<= 0;
+						curr_state 					<= IDLE;
+						counter 						<= 0;
+						comp_p_row 					<= window_half;
+						comp_p_col 					<= window_half + (NUM_OF_WIN-1); // Start 64 pixels over as we search 64 pixels to the left
+						win_row_index 				<= 0;
+						win_col_index 				<= 0; 
+						win_count 					<= 0; 
+				//		total_num_of_pix 			<= 0;
+						window_sum 					<= 0;
+						lowest_disp 				<= 12'hFFF; // highest value
+						lowest_disp_index			<= 63;		// highest value
+						we_search 					<= 0;
+						en_search 					<= 0;
+						grayscale_fifo_wr_sel	<= (window_half + (NUM_OF_WIN-1)) % 2;
+						address_counter			<= 1;
+						address_win_count			<= 0;
+						grayscale_pixels			<= 0;
+						
+						en_ref						<= 0;
+						we_ref						<= 0;
+						addr_ref					<= 0;							
 						comp_p_row <= #2 window_half;
 					end
 					else begin

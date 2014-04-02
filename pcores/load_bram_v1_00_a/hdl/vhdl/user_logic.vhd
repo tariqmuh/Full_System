@@ -138,9 +138,9 @@ entity user_logic is
     C_NUM_REG                      : integer              := 9;
     C_SLV_DWIDTH                   : integer              := 32;
 	 START_ADDR_REF					  : std_logic_vector		 := X"A0000000";
-	 END_ADDR_REF						  : std_logic_vector		 := X"A03A97C0";
-	 START_ADDR_SEARCH				  : std_logic_vector 	 := X"A8000000";
-	 END_ADDR_SEARCH					  : std_logic_vector		 := X"A83A97C0";
+	 END_ADDR_REF						  : std_logic_vector		 := X"A0095F80";
+	 START_ADDR_SEARCH				  : std_logic_vector 	 := X"A0100000";
+	 END_ADDR_SEARCH					  : std_logic_vector		 := X"A0195F80";
 	 BRAM_ADDR_WIDTH					  : integer					 := 13
     -- DO NOT EDIT ABOVE THIS LINE ---------------------
   );
@@ -1327,5 +1327,7 @@ process(Bus2IP_Clk) begin
 		
 		end if;
 	end process;
+	
+	mst_ip2bus_addr <= pa_wr_addr when fifo_ref_sel = '1' else pb_wr_addr;
 
 end IMP;
