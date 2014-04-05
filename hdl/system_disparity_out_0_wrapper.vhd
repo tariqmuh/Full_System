@@ -66,7 +66,9 @@ entity system_disparity_out_0_wrapper is
     DISP_D_I : in std_logic_vector(31 downto 0);
     DISP_CLK_I : in std_logic;
     RESET_I : in std_logic;
-    DISP_EN : in std_logic
+    DISP_EN : in std_logic;
+    SW_I : in std_logic_vector(7 downto 0);
+    LED_O : out std_logic_vector(7 downto 0)
   );
 end system_disparity_out_0_wrapper;
 
@@ -91,7 +93,14 @@ architecture STRUCTURE of system_disparity_out_0_wrapper is
       C_MAX_BURST_LEN : INTEGER;
       C_NATIVE_DATA_WIDTH : INTEGER;
       C_LENGTH_WIDTH : INTEGER;
-      C_ADDR_PIPE_DEPTH : INTEGER
+      C_ADDR_PIPE_DEPTH : INTEGER;
+      DISP_DATA_PORT_SIZE : INTEGER;
+      FIFO_RD_COUNT_WIDTH : INTEGER;
+      FRAME_PIXEL_WIDTH : INTEGER;
+      FRAME_PIXEL_HEIGHT : INTEGER;
+      WMAX : INTEGER;
+      PIXEL_DISCARD : INTEGER;
+      DMAP_ADDR : std_logic_vector
     );
     port (
       S_AXI_ACLK : in std_logic;
@@ -148,7 +157,9 @@ architecture STRUCTURE of system_disparity_out_0_wrapper is
       DISP_D_I : in std_logic_vector(31 downto 0);
       DISP_CLK_I : in std_logic;
       RESET_I : in std_logic;
-      DISP_EN : in std_logic
+      DISP_EN : in std_logic;
+      SW_I : in std_logic_vector(7 downto 0);
+      LED_O : out std_logic_vector(7 downto 0)
     );
   end component;
 
@@ -173,7 +184,14 @@ begin
       C_MAX_BURST_LEN => 16,
       C_NATIVE_DATA_WIDTH => 32,
       C_LENGTH_WIDTH => 12,
-      C_ADDR_PIPE_DEPTH => 1
+      C_ADDR_PIPE_DEPTH => 1,
+      DISP_DATA_PORT_SIZE => 32,
+      FIFO_RD_COUNT_WIDTH => 8,
+      FRAME_PIXEL_WIDTH => 640,
+      FRAME_PIXEL_HEIGHT => 480,
+      WMAX => 3,
+      PIXEL_DISCARD => 68,
+      DMAP_ADDR => X"a0400000"
     )
     port map (
       S_AXI_ACLK => S_AXI_ACLK,
@@ -230,7 +248,9 @@ begin
       DISP_D_I => DISP_D_I,
       DISP_CLK_I => DISP_CLK_I,
       RESET_I => RESET_I,
-      DISP_EN => DISP_EN
+      DISP_EN => DISP_EN,
+      SW_I => SW_I,
+      LED_O => LED_O
     );
 
 end architecture STRUCTURE;

@@ -467,7 +467,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter>
         <spirit:name>C_S0_AXI_BASEADDR</spirit:name>
-        <spirit:value spirit:format="string" spirit:resolve="OPTIONAL" spirit:id="_component_.C_S0_AXI_BASEADDR"> 0xA0000000 </spirit:value>
+        <spirit:value spirit:format="string" spirit:resolve="OPTIONAL" spirit:id="_component_.C_S0_AXI_BASEADDR"> 0xa0000000 </spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter>
         <spirit:name>C_S0_AXI_DATA_WIDTH</spirit:name>
@@ -483,7 +483,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter>
         <spirit:name>C_S0_AXI_HIGHADDR</spirit:name>
-        <spirit:value spirit:format="string" spirit:resolve="OPTIONAL" spirit:id="_component_.C_S0_AXI_HIGHADDR"> 0xA7FFFFFF </spirit:value>
+        <spirit:value spirit:format="string" spirit:resolve="OPTIONAL" spirit:id="_component_.C_S0_AXI_HIGHADDR"> 0xa7ffffff </spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter>
         <spirit:name>C_S0_AXI_STRICT_COHERENCY</spirit:name>

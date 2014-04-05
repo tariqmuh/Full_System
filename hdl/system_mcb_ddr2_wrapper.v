@@ -541,8 +541,8 @@ module system_mcb_ddr2_wrapper
 
   axi_s6_ddrx
     #(
-      .C_S0_AXI_BASEADDR ( 32'hA0000000 ),
-      .C_S0_AXI_HIGHADDR ( 32'hA7FFFFFF ),
+      .C_S0_AXI_BASEADDR ( 32'ha0000000 ),
+      .C_S0_AXI_HIGHADDR ( 32'ha7ffffff ),
       .C_S1_AXI_BASEADDR ( 32'hFFFFFFFF ),
       .C_S1_AXI_HIGHADDR ( 32'h00000000 ),
       .C_S2_AXI_BASEADDR ( 32'hFFFFFFFF ),

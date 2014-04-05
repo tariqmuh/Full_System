@@ -1,10 +1,10 @@
 Release 14.2 - xst P.28xd (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:\Users\tariqmuh\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to C:\Users\DSD\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.58 secs
+Total CPU time to Xst completion: 0.32 secs
  
 --> 
 TABLE OF CONTENTS
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_microblaze_0_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\Users\tariqmuh\Documents\GitHub\Full_System\pcores\" "C:\Users\tariqmuh\Documents\GitHub\320x240\pcores\" "C:\Users\tariqmuh\Documents\GitHub\Vmod_in_HDMI\pcores\" "C:\Users\tariqmuh\Documents\GitHub\Vmod_in_HDMI_100MHz\pcores\" "C:\Xilinx\14.2\ISE_DS\edk_user_repository\MyProcessorIPLib\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\Users\DSD\Documents\GitHub\Full_System\pcores\" "C:\Users\DSD\Documents\GitHub\disp_map_gen\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc6slx45csg324-3
@@ -358,7 +358,7 @@ Parsing architecture <IMP> of entity <microblaze_core>.
 Parsing VHDL file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_a/hdl/vhdl/microblaze.vhd" into library microblaze_v8_40_a
 Parsing entity <MicroBlaze>.
 Parsing architecture <IMP> of entity <microblaze>.
-Parsing VHDL file "C:\Users\tariqmuh\Documents\GitHub\Full_System\hdl\system_microblaze_0_wrapper.vhd" into library work
+Parsing VHDL file "C:\Users\DSD\Documents\GitHub\Full_System\hdl\system_microblaze_0_wrapper.vhd" into library work
 Parsing entity <system_microblaze_0_wrapper>.
 Parsing architecture <STRUCTURE> of entity <system_microblaze_0_wrapper>.
 
@@ -522,7 +522,7 @@ WARNING:HDLCompiler:634 - "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pco
 =========================================================================
 
 Synthesizing Unit <system_microblaze_0_wrapper>.
-    Related source file is "C:\Users\tariqmuh\Documents\GitHub\Full_System\hdl\system_microblaze_0_wrapper.vhd".
+    Related source file is "C:\Users\DSD\Documents\GitHub\Full_System\hdl\system_microblaze_0_wrapper.vhd".
     Summary:
 	no macro.
 Unit <system_microblaze_0_wrapper> synthesized.
@@ -643,8 +643,8 @@ Synthesizing Unit <MicroBlaze>.
         C_S14_AXIS_DATA_WIDTH = 32
         C_M15_AXIS_DATA_WIDTH = 32
         C_S15_AXIS_DATA_WIDTH = 32
-        C_ICACHE_BASEADDR = "11000000000000000000000000000000"
-        C_ICACHE_HIGHADDR = "11000111111111111111111111111111"
+        C_ICACHE_BASEADDR = "10100000000000000000000000000000"
+        C_ICACHE_HIGHADDR = "10100111111111111111111111111111"
         C_USE_ICACHE = 1
         C_ALLOW_ICACHE_WR = 1
         C_ADDR_TAG_BITS = 15
@@ -666,8 +666,8 @@ Synthesizing Unit <MicroBlaze>.
         C_M_AXI_IC_WUSER_WIDTH = 1
         C_M_AXI_IC_RUSER_WIDTH = 1
         C_M_AXI_IC_BUSER_WIDTH = 1
-        C_DCACHE_BASEADDR = "11000000000000000000000000000000"
-        C_DCACHE_HIGHADDR = "11000111111111111111111111111111"
+        C_DCACHE_BASEADDR = "10100000000000000000000000000000"
+        C_DCACHE_HIGHADDR = "10100111111111111111111111111111"
         C_USE_DCACHE = 1
         C_ALLOW_DCACHE_WR = 1
         C_DCACHE_ADDR_TAG = 15
@@ -822,8 +822,8 @@ Synthesizing Unit <MicroBlaze_Core>.
         C_S14_AXIS_DATA_WIDTH = 32
         C_M15_AXIS_DATA_WIDTH = 32
         C_S15_AXIS_DATA_WIDTH = 32
-        C_ICACHE_BASEADDR = "11000000000000000000000000000000"
-        C_ICACHE_HIGHADDR = "11000111111111111111111111111111"
+        C_ICACHE_BASEADDR = "10100000000000000000000000000000"
+        C_ICACHE_HIGHADDR = "10100111111111111111111111111111"
         C_USE_ICACHE = 1
         C_ALLOW_ICACHE_WR = 1
         C_ADDR_TAG_BITS = 15
@@ -845,8 +845,8 @@ Synthesizing Unit <MicroBlaze_Core>.
         C_M_AXI_IC_WUSER_WIDTH = 1
         C_M_AXI_IC_RUSER_WIDTH = 1
         C_M_AXI_IC_BUSER_WIDTH = 1
-        C_DCACHE_BASEADDR = "11000000000000000000000000000000"
-        C_DCACHE_HIGHADDR = "11000111111111111111111111111111"
+        C_DCACHE_BASEADDR = "10100000000000000000000000000000"
+        C_DCACHE_HIGHADDR = "10100111111111111111111111111111"
         C_USE_DCACHE = 1
         C_ALLOW_DCACHE_WR = 1
         C_DCACHE_ADDR_TAG = 15
@@ -1602,10 +1602,10 @@ Synthesizing Unit <Data_Flow_gti>.
         C_DCACHE_VICTIMS = 0
         C_DCACHE_FORCE_TAG_LUTRAM = 0
         C_DCACHE_DATA_WIDTH = 0
-        C_ICACHE_BASEADDR = "11000000000000000000000000000000"
-        C_ICACHE_HIGHADDR = "11000111111111111111111111111111"
-        C_DCACHE_BASEADDR = "11000000000000000000000000000000"
-        C_DCACHE_HIGHADDR = "11000111111111111111111111111111"
+        C_ICACHE_BASEADDR = "10100000000000000000000000000000"
+        C_ICACHE_HIGHADDR = "10100111111111111111111111111111"
+        C_DCACHE_BASEADDR = "10100000000000000000000000000000"
+        C_DCACHE_HIGHADDR = "10100111111111111111111111111111"
         C_MMU_DTLB_SIZE = 4
         C_MMU_ITLB_SIZE = 2
         C_MMU_TLB_ACCESS = 3
@@ -2179,10 +2179,10 @@ Synthesizing Unit <PVR>.
         C_DCACHE_VICTIMS = 0
         C_DCACHE_FORCE_TAG_LUTRAM = 0
         C_DCACHE_DATA_WIDTH = 0
-        C_ICACHE_BASEADDR = "11000000000000000000000000000000"
-        C_ICACHE_HIGHADDR = "11000111111111111111111111111111"
-        C_DCACHE_BASEADDR = "11000000000000000000000000000000"
-        C_DCACHE_HIGHADDR = "11000111111111111111111111111111"
+        C_ICACHE_BASEADDR = "10100000000000000000000000000000"
+        C_ICACHE_HIGHADDR = "10100111111111111111111111111111"
+        C_DCACHE_BASEADDR = "10100000000000000000000000000000"
+        C_DCACHE_HIGHADDR = "10100111111111111111111111111111"
         C_TARGET = spartan6
         C_USE_MMU = 0
         C_MMU_DTLB_SIZE = 4
@@ -2251,8 +2251,8 @@ Synthesizing Unit <DCache_gti>.
         C_ALLOW_LUT6 = true
         C_DATA_SIZE = 32
         C_USE_PARITY = 0
-        C_DCACHE_BASEADDR = "11000000000000000000000000000000"
-        C_DCACHE_HIGHADDR = "11000111111111111111111111111111"
+        C_DCACHE_BASEADDR = "10100000000000000000000000000000"
+        C_DCACHE_HIGHADDR = "10100111111111111111111111111111"
         C_ALLOW_DCACHE_WR = 1
         C_ADDR_TAG_BITS = 15
         C_CACHELINE_SIZE = 4
@@ -3012,8 +3012,8 @@ Synthesizing Unit <Icache>.
         C_USE_PARITY = 0
         C_ALLOW_LUT6 = true
         C_DATA_SIZE = 32
-        C_ICACHE_BASEADDR = "11000000000000000000000000000000"
-        C_ICACHE_HIGHADDR = "11000111111111111111111111111111"
+        C_ICACHE_BASEADDR = "10100000000000000000000000000000"
+        C_ICACHE_HIGHADDR = "10100111111111111111111111111111"
         C_CACHELINE_SIZE = 4
         C_ALLOW_ICACHE_WR = 1
         C_ADDR_TAG_BITS = 15
@@ -3457,12 +3457,12 @@ Synthesizing Unit <Debug>.
         C_USE_ICACHE = 1
         C_ICACHE_USE_FSL = 0
         C_DCACHE_USE_WRITEBACK = 0
-        C_ICACHE_BASEADDR = "11000000000000000000000000000000"
-        C_ICACHE_HIGHADDR = "11000111111111111111111111111111"
+        C_ICACHE_BASEADDR = "10100000000000000000000000000000"
+        C_ICACHE_HIGHADDR = "10100111111111111111111111111111"
         C_USE_DCACHE = 1
         C_DCACHE_USE_FSL = 0
-        C_DCACHE_BASEADDR = "11000000000000000000000000000000"
-        C_DCACHE_HIGHADDR = "11000111111111111111111111111111"
+        C_DCACHE_BASEADDR = "10100000000000000000000000000000"
+        C_DCACHE_HIGHADDR = "10100111111111111111111111111111"
         C_TARGET = spartan6
         C_DATA_SIZE = 32
         C_NUMBER_OF_PC_BRK = 1
@@ -3617,7 +3617,7 @@ Synthesizing Unit <MB_SRL16E_4>.
     Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_a/hdl/vhdl/microblaze_primitives.vhd".
         C_USE_SRL16 = "yes"
         C_STATIC = true
-        INIT = "1100011111111111"
+        INIT = "1010011111111111"
     Summary:
 	no macro.
 Unit <MB_SRL16E_4> synthesized.
@@ -3635,7 +3635,7 @@ Synthesizing Unit <MB_SRL16E_6>.
     Related source file is "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/microblaze_v8_40_a/hdl/vhdl/microblaze_primitives.vhd".
         C_USE_SRL16 = "yes"
         C_STATIC = true
-        INIT = "1100000000000000"
+        INIT = "1010000000000000"
     Summary:
 	no macro.
 Unit <MB_SRL16E_6> synthesized.
@@ -8928,12 +8928,12 @@ DCACHE_FSL_OUT_CLK|    7.726|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 106.00 secs
-Total CPU time to Xst completion: 106.17 secs
+Total REAL time to Xst completion: 101.00 secs
+Total CPU time to Xst completion: 101.85 secs
  
 --> 
 
-Total memory usage is 400260 kilobytes
+Total memory usage is 403648 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 4758 (   0 filtered)

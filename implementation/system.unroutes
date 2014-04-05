@@ -1,11 +1,11 @@
 Release 14.2 - par P.28xd (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-Wed Apr 02 13:55:06 2014
+Sat Apr 05 13:17:27 2014
 
 All signals are completely routed.
 
-WARNING:ParHelpers:361 - There are 62 loadless signals in this design. This design will cause Bitgen to issue DRC
+WARNING:ParHelpers:361 - There are 68 loadless signals in this design. This design will cause Bitgen to issue DRC
    warnings.
 
    axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<48>
@@ -70,5 +70,11 @@ WARNING:ParHelpers:361 - There are 62 loadless signals in this design. This desi
    vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM9_RAMD_O
    vmodcam_0/vmodcam_0/USER_LOGIC_I/Inst_VmodCAM/Inst_IOBUF_CAMA_FV/O
    vmodcam_0/vmodcam_0/USER_LOGIC_I/Inst_VmodCAM/Inst_IOBUF_CAMB_FV/O
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/Mmux_LED_O[7]_bus2ip_mst_cmdack_MUX_1205_o_8
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/Mmux_LED_O[7]_p1_fifo_full_MUX_1231_o_8
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/Mmux_LED_O[7]_p1_wr_data[0]_MUX_1257_o_8
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/Mmux_LED_O[7]_p1_wr_data[1]_MUX_1244_o_8
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/Mmux_LED_O[7]_p1_wr_empty_MUX_1218_o_8
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/Mmux_LED_O[7]_pa_wr_data_sel_MUX_1192_o_8
 
 

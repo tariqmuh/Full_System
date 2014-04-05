@@ -1,10 +1,10 @@
 Release 14.2 - xst P.28xd (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:\Users\tariqmuh\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to C:\Users\DSD\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.26 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.37 secs
  
 --> 
 TABLE OF CONTENTS
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_vmodcam_0_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\Users\tariqmuh\Documents\GitHub\Full_System\pcores\" "C:\Users\tariqmuh\Documents\GitHub\320x240\pcores\" "C:\Users\tariqmuh\Documents\GitHub\Vmod_in_HDMI\pcores\" "C:\Users\tariqmuh\Documents\GitHub\Vmod_in_HDMI_100MHz\pcores\" "C:\Xilinx\14.2\ISE_DS\edk_user_repository\MyProcessorIPLib\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\Users\DSD\Documents\GitHub\Full_System\pcores\" "C:\Users\DSD\Documents\GitHub\disp_map_gen\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc6slx45csg324-3
@@ -62,21 +62,21 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/LocalRst.vhd" into library vmodcam_v1_01_a
+Parsing VHDL file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/LocalRst.vhd" into library vmodcam_v1_01_a
 Parsing entity <LocalRst>.
 Parsing architecture <Behavioral> of entity <localrst>.
-Parsing VHDL file "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" into library vmodcam_v1_01_a
+Parsing VHDL file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" into library vmodcam_v1_01_a
 Parsing package <TWIUtils>.
 Parsing package body <TWIUtils>.
 Parsing entity <TWICtl>.
 Parsing architecture <Behavioral> of entity <twictl>.
-Parsing VHDL file "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/CamCtl.vhd" into library vmodcam_v1_01_a
+Parsing VHDL file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/CamCtl.vhd" into library vmodcam_v1_01_a
 Parsing entity <CamCtl>.
 Parsing architecture <Behavioral> of entity <camctl>.
-Parsing VHDL file "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/fifo.vhd" into library vmodcam_v1_01_a
+Parsing VHDL file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/fifo.vhd" into library vmodcam_v1_01_a
 Parsing entity <fifo>.
 Parsing architecture <fifo_a> of entity <fifo>.
-Parsing VHDL file "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/InputSync.vhd" into library vmodcam_v1_01_a
+Parsing VHDL file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/InputSync.vhd" into library vmodcam_v1_01_a
 Parsing entity <InputSync>.
 Parsing architecture <Behavioral> of entity <inputsync>.
 Parsing entity <InputSyncV>.
@@ -104,12 +104,12 @@ Parsing architecture <imp> of entity <srl_fifo_rbu_f>.
 Parsing VHDL file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/srl_fifo_f.vhd" into library proc_common_v3_00_a
 Parsing entity <srl_fifo_f>.
 Parsing architecture <imp> of entity <srl_fifo_f>.
-Parsing VHDL file "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/Video.vhd" into library vmodcam_v1_01_a
+Parsing VHDL file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/Video.vhd" into library vmodcam_v1_01_a
 Parsing package <Video>.
-Parsing VHDL file "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/VmodCAM_Ref.vhd" into library vmodcam_v1_01_a
+Parsing VHDL file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/VmodCAM_Ref.vhd" into library vmodcam_v1_01_a
 Parsing entity <VmodCAM_Ref>.
 Parsing architecture <Behavioral> of entity <vmodcam_ref>.
-Parsing VHDL file "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" into library vmodcam_v1_01_a
+Parsing VHDL file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" into library vmodcam_v1_01_a
 Parsing entity <user_logic>.
 Parsing architecture <IMP> of entity <user_logic>.
 Parsing VHDL file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family.vhd" into library proc_common_v3_00_a
@@ -336,10 +336,10 @@ Parsing architecture <implementation> of entity <axi_master_burst_wr_llink>.
 Parsing VHDL file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_master_burst_v1_00_a/hdl/vhdl/axi_master_burst.vhd" into library axi_master_burst_v1_00_a
 Parsing entity <axi_master_burst>.
 Parsing architecture <implementation> of entity <axi_master_burst>.
-Parsing VHDL file "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/vmodcam.vhd" into library vmodcam_v1_01_a
+Parsing VHDL file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/vmodcam.vhd" into library vmodcam_v1_01_a
 Parsing entity <vmodcam>.
 Parsing architecture <IMP> of entity <vmodcam>.
-Parsing VHDL file "C:\Users\tariqmuh\Documents\GitHub\Full_System\hdl\system_vmodcam_0_wrapper.vhd" into library work
+Parsing VHDL file "C:\Users\DSD\Documents\GitHub\Full_System\hdl\system_vmodcam_0_wrapper.vhd" into library work
 Parsing entity <system_vmodcam_0_wrapper>.
 Parsing architecture <STRUCTURE> of entity <system_vmodcam_0_wrapper>.
 
@@ -454,9 +454,9 @@ Elaborating entity <axi_master_burst_wr_llink> (architecture <implementation>) w
 Elaborating entity <soft_reset> (architecture <implementation>) with generics from library <proc_common_v3_00_a>.
 
 Elaborating entity <user_logic> (architecture <IMP>) with generics from library <vmodcam_v1_01_a>.
-INFO:HDLCompiler:679 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" Line 764. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" Line 819. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" Line 954. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" Line 764. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" Line 819. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" Line 954. Case statement is complete. others clause is never selected
 
 Elaborating entity <srl_fifo_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
 
@@ -473,32 +473,32 @@ Elaborating entity <CamCtl> (architecture <Behavioral>) from library <vmodcam_v1
 Elaborating entity <LocalRst> (architecture <Behavioral>) with generics from library <vmodcam_v1_01_a>.
 
 Elaborating entity <TWICtl> (architecture <Behavioral>) with generics from library <vmodcam_v1_01_a>.
-WARNING:HDLCompiler:1127 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" Line 169: Assignment to fstop ignored, since the identifier is never used
-INFO:HDLCompiler:679 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" Line 348. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" Line 381. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" Line 399. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" Line 417. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" Line 435. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/CamCtl.vhd" Line 446. Case statement is complete. others clause is never selected
-WARNING:HDLCompiler:92 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/VmodCAM_Ref.vhd" Line 208: camadv should be on the sensitivity list of the process
-WARNING:HDLCompiler:92 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/VmodCAM_Ref.vhd" Line 209: cambdv should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" Line 169: Assignment to fstop ignored, since the identifier is never used
+INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" Line 348. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" Line 381. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" Line 399. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" Line 417. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd" Line 435. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/CamCtl.vhd" Line 446. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:92 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/VmodCAM_Ref.vhd" Line 208: camadv should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/VmodCAM_Ref.vhd" Line 209: cambdv should be on the sensitivity list of the process
 
 Elaborating entity <fifo> (architecture <fifo_a>) from library <vmodcam_v1_01_a>.
-INFO:HDLCompiler:679 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" Line 1215. Case statement is complete. others clause is never selected
-WARNING:Xst:2972 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 971. All outputs of instance <DATA_CAPTURE_FIFO_I> of block <srl_fifo_f> are unconnected in block <user_logic>. Underlying logic will be removed.
+INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" Line 1215. Case statement is complete. others clause is never selected
+WARNING:Xst:2972 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 971. All outputs of instance <DATA_CAPTURE_FIFO_I> of block <srl_fifo_f> are unconnected in block <user_logic>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <system_vmodcam_0_wrapper>.
-    Related source file is "C:\Users\tariqmuh\Documents\GitHub\Full_System\hdl\system_vmodcam_0_wrapper.vhd".
+    Related source file is "C:\Users\DSD\Documents\GitHub\Full_System\hdl\system_vmodcam_0_wrapper.vhd".
     Summary:
 	no macro.
 Unit <system_vmodcam_0_wrapper> synthesized.
 
 Synthesizing Unit <vmodcam>.
-    Related source file is "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/vmodcam.vhd".
+    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/vmodcam.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
@@ -531,9 +531,9 @@ WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/p
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
     Set property "MAX_FANOUT = 10000" for signal <m_axi_aresetn>.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
-INFO:Xst:3210 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/vmodcam.vhd" line 432: Output port <Bus2IP_Addr> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/vmodcam.vhd" line 432: Output port <Bus2IP_RNW> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/vmodcam.vhd" line 562: Output port <Reset2Bus_ToutSup> of the instance <SOFT_RESET_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/vmodcam.vhd" line 432: Output port <Bus2IP_Addr> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/vmodcam.vhd" line 432: Output port <Bus2IP_RNW> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/vmodcam.vhd" line 562: Output port <Reset2Bus_ToutSup> of the instance <SOFT_RESET_I> is unconnected or connected to loadless signal.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <vmodcam> synthesized.
@@ -1446,7 +1446,7 @@ WARNING:Xst:647 - Input <Bus2IP_BE<0:2>> is never used. This port will be preser
 Unit <soft_reset> synthesized.
 
 Synthesizing Unit <user_logic>.
-    Related source file is "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd".
+    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
@@ -1467,13 +1467,13 @@ WARNING:Xst:647 - Input <bus2ip_mstrd_rem> is never used. This port will be pres
 WARNING:Xst:647 - Input <bus2ip_mst_rearbitrate> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <bus2ip_mstrd_sof_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <bus2ip_mstrd_src_dsc_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 971: Output port <Data_Out> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 971: Output port <Addr> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 971: Output port <FIFO_Empty> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 971: Output port <FIFO_Full> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 1019: Output port <LED_O> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 1077: Output port <full> of the instance <CAMB_FIFO> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 1077: Output port <empty> of the instance <CAMB_FIFO> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 971: Output port <Data_Out> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 971: Output port <Addr> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 971: Output port <FIFO_Empty> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 971: Output port <FIFO_Full> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 1019: Output port <LED_O> of the instance <Inst_VmodCAM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 1077: Output port <full> of the instance <CAMB_FIFO> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/user_logic.vhd" line 1077: Output port <empty> of the instance <CAMB_FIFO> is unconnected or connected to loadless signal.
     Found 32-bit register for signal <slv_reg1>.
     Found 32-bit register for signal <slv_reg2>.
     Found 32-bit register for signal <slv_reg3>.
@@ -1801,7 +1801,7 @@ INFO:Xst:3019 - HDL ADVISOR - 4096 flip-flops were inferred for signal <INFERRED
 Unit <dynshreg_f_3> synthesized.
 
 Synthesizing Unit <VmodCAM_Ref>.
-    Related source file is "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/VmodCAM_Ref.vhd".
+    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/VmodCAM_Ref.vhd".
         C3_NUM_DQ_PINS = 16
         C3_MEM_ADDR_WIDTH = 13
         C3_MEM_BANKADDR_WIDTH = 3
@@ -1850,10 +1850,10 @@ INFO:Xst:2774 - HDL ADVISOR - S property attached to signal CAMB_D_I<7> may hind
 Unit <VmodCAM_Ref> synthesized.
 
 Synthesizing Unit <CamCtl>.
-    Related source file is "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/CamCtl.vhd".
+    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/CamCtl.vhd".
     Set property "buffer_type = BUFG" for signal <PCLK_I>.
 WARNING:Xst:647 - Input <FV_I> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/CamCtl.vhd" line 272: Output port <ERRTYPE_O> of the instance <Inst_TWICtl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/CamCtl.vhd" line 272: Output port <ERRTYPE_O> of the instance <Inst_TWICtl> is unconnected or connected to loadless signal.
 WARNING:Xst:3035 - Index value(s) does not match array range for signal <CamInitRAM>, simulation mismatch.
     Found 26x33-bit single-port RAM <Mram_CamInitRAM> for signal <CamInitRAM>.
     Found 1-bit register for signal <DV_O>.
@@ -1896,7 +1896,7 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <CamInit
 Unit <CamCtl> synthesized.
 
 Synthesizing Unit <LocalRst>.
-    Related source file is "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/LocalRst.vhd".
+    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/LocalRst.vhd".
         RESET_PERIOD = 4
     Found 1-bit register for signal <RstQ<2>>.
     Found 1-bit register for signal <RstQ<3>>.
@@ -1907,7 +1907,7 @@ Synthesizing Unit <LocalRst>.
 Unit <LocalRst> synthesized.
 
 Synthesizing Unit <TWICtl>.
-    Related source file is "C:/Users/tariqmuh/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd".
+    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/vmodcam_v1_01_a/hdl/vhdl/TWICtl.vhd".
         CLOCKFREQ = 24
     Set property "fsm_encoding = gray" for signal <state>.
 WARNING:Xst:2935 - Signal 'ERRTYPE_O', unconnected in block 'TWICtl', is tied to its initial value (0).
@@ -3224,12 +3224,12 @@ m_axi_aclk     |         |         |    1.519|         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 51.00 secs
-Total CPU time to Xst completion: 51.07 secs
+Total REAL time to Xst completion: 48.00 secs
+Total CPU time to Xst completion: 48.40 secs
  
 --> 
 
-Total memory usage is 353788 kilobytes
+Total memory usage is 355264 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  351 (   0 filtered)

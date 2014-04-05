@@ -1,10 +1,10 @@
 Release 14.2 - xst P.28xd (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:\Users\tariqmuh\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to C:\Users\DSD\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.42 secs
+Total CPU time to Xst completion: 0.32 secs
  
 --> 
 TABLE OF CONTENTS
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_axi4_0_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\Users\tariqmuh\Documents\GitHub\Full_System\pcores\" "C:\Users\tariqmuh\Documents\GitHub\320x240\pcores\" "C:\Users\tariqmuh\Documents\GitHub\Vmod_in_HDMI\pcores\" "C:\Users\tariqmuh\Documents\GitHub\Vmod_in_HDMI_100MHz\pcores\" "C:\Xilinx\14.2\ISE_DS\edk_user_repository\MyProcessorIPLib\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\Users\DSD\Documents\GitHub\Full_System\pcores\" "C:\Users\DSD\Documents\GitHub\disp_map_gen\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc6slx45csg324-3
@@ -183,7 +183,7 @@ Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores
 Parsing module <ict106_w_upsizer>.
 Analyzing Verilog file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_interconnect_v1_06_a/hdl/verilog/axi_interconnect.v" into library axi_interconnect_v1_06_a
 Parsing module <axi_interconnect>.
-Analyzing Verilog file "C:\Users\tariqmuh\Documents\GitHub\Full_System\hdl\system_axi4_0_wrapper.v" into library work
+Analyzing Verilog file "C:\Users\DSD\Documents\GitHub\Full_System\hdl\system_axi4_0_wrapper.v" into library work
 Parsing module <system_axi4_0_wrapper>.
 
 =========================================================================
@@ -210,7 +210,7 @@ Elaborating module
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000010100000000000000000000000000000,C_M_AXI_HIGH_ADDR=16384'b010100111111111111111111111111111,C_S_AXI_BASE_ID=512'b01010000000000000000000000000000010000000000000000000000000000000011000000000000000000000000000000100000000000000000000000000000000100000000000000000000000000000000,C_S_AXI_THREAD_ID_WIDTH=512'b0,C_S_AXI_IS_INTERCONNECT=16'b0,C_S_AXI_ACLK_RATIO=512'b010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000010111110101111000010000000000000001011111010111100001000000000001011111010111100001000000000000010111110101111000010000000000000101111101011110000100000
+111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000010100000000000000000000000000000,C_M_AXI_HIGH_ADDR=16384'b010100111111111111111111111111111,C_S_AXI_BASE_ID=512'b01010000000000000000000000000000010000000000000000000000000000000011000000000000000000000000000000100000000000000000000000000000000100000000000000000000000000000000,C_S_AXI_THREAD_ID_WIDTH=512'b0,C_S_AXI_IS_INTERCONNECT=16'b0,C_S_AXI_ACLK_RATIO=512'b010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000010111110101111000010000000000000101111101011110000100000000000000010111110101111000010000000000010111110101111000010000000000000101111101011110000100000
 00000000101111101011110000100000000,C_S_AXI_IS_ACLK_ASYNC=16'b0,C_M_AXI_ACLK_RATIO=512'b01000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000101111101011110000100000000,C_M_AXI_IS_ACLK_ASYNC=16'b0,C_INTERCONNECT_ACLK_RATIO=100000000,C_S_AXI_SUPPORTS_WRITE=16'b1111111111111011,C_S_AXI_SUPPORTS_READ=16'b1111111111111111,C_M_AXI_SUPPORTS_WRITE=16'b1111111111111111,C_M_AXI_SUPPORTS_READ=16'b1111111111111111,C_AXI_SUPPORTS_USER_SIGNALS=0,C_AXI_AWUSER_WIDTH=5,C_AXI_ARUSER_WIDTH=5,C_AXI_WUSER_WIDTH=1,C_AXI_RUSER_WIDTH=1,C_AXI_BUSER_WIDTH=1,C_AXI_CONNECTIVITY=512'b0111111,C_S_AXI_SINGLE_THREAD=16'b0,C_M_AXI_SUPPORTS_REORDE
 RING=16'b1111111111111111,C_S_AXI_SUPPORTS_NARROW_BURST=16'b1111111111111001,C_M_AXI_SUPPORTS_NARROW_BURST=16'b1111111111111111,C_S_AXI_WRITE_ACCEPTANCE=512'b01000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000010000000000000000000000000000000000001,C_S_AXI_READ_ACCEPTANCE=512'b010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001
 00000000000000000000000000000001000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000001,C_M_AXI_WRITE_ISSUING=512'b01000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000100,C_M_AXI_READ_ISSUING=512'b01000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000
@@ -253,7 +253,7 @@ Elaborating module <ict106_protocol_conv_bank(C_FAMILY="spartan6",C_NUM_SLOTS=1,
 
 Elaborating module
 <ict106_converter_bank(C_FAMILY="spartan6",C_NUM_SLOTS=6,C_AXI_ID_WIDTH=512'b01000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001,C_AXI_ID_MAX_WIDTH=3,C_AXI_ADDR_WIDTH=32,C_AXI_DATA_MAX_WIDTH=32,C_S_AXI_DATA_WIDTH=512'b010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000
-0000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000,C_M_AXI_DATA_WIDTH=192'b01000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000,C_AXI_PROTOCOL=512'b0,C_AXI_IS_ACLK_ASYNC=16'b0,C_S_AXI_ACLK_RATIO=512'b01000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000001011111010111100001000000000000000101111101011110000100000000000101111101011110000100000000000001011111010111100001000000000000010111110101111000010000000000000101111101011110000100000000,C_M_AXI_ACLK_RATIO=192'b01011111010111100001000000000000010111110101111000010000000000000101111101011110000100000000000001011111010111100001000000000000010111110101
+0000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000,C_M_AXI_DATA_WIDTH=192'b01000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000,C_AXI_PROTOCOL=512'b0,C_AXI_IS_ACLK_ASYNC=16'b0,C_S_AXI_ACLK_RATIO=512'b01000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000001011111010111100001000000000000010111110101111000010000000000000001011111010111100001000000000001011111010111100001000000000000010111110101111000010000000000000101111101011110000100000000,C_M_AXI_ACLK_RATIO=192'b01011111010111100001000000000000010111110101111000010000000000000101111101011110000100000000000001011111010111100001000000000000010111110101
 111000010000000000000101111101011110000100000000,C_AXI_SUPPORTS_WRITE=16'b1111111111111011,C_AXI_SUPPORTS_READ=16'b1111111111111111,C_AXI_SUPPORTS_USER_SIGNALS=0,C_AXI_AWUSER_WIDTH=5,C_AXI_ARUSER_WIDTH=5,C_AXI_WUSER_WIDTH=1,C_AXI_RUSER_WIDTH=1,C_AXI_BUSER_WIDTH=1,C_HEMISPHERE="si")>.
 
 Elaborating module <ict106_axi_clock_converter(C_FAMILY="spartan6",C_AXI_ID_WIDTH=32'b01,C_AXI_ADDR_WIDTH=32,C_AXI_DATA_WIDTH=32'sb0100000,C_AXI_IS_ACLK_ASYNC=1'b0,C_S_AXI_ACLK_RATIO=32'b0101111101011110000100000000,C_M_AXI_ACLK_RATIO=32'b0101111101011110000100000000,C_AXI_PROTOCOL=32'b0,C_AXI_SUPPORTS_WRITE=1'b1,C_AXI_SUPPORTS_READ=1'b1,C_AXI_SUPPORTS_USER_SIGNALS=0,C_AXI_AWUSER_WIDTH=5,C_AXI_ARUSER_WIDTH=5,C_AXI_WUSER_WIDTH=1,C_AXI_RUSER_WIDTH=1,C_AXI_BUSER_WIDTH=1)>.
@@ -641,7 +641,7 @@ Elaborating module <ict106_mux_enc(C_FAMILY="spartan6",C_RATIO=6,C_SEL_WIDTH=32'
 =========================================================================
 
 Synthesizing Unit <system_axi4_0_wrapper>.
-    Related source file is "C:\Users\tariqmuh\Documents\GitHub\Full_System\hdl\system_axi4_0_wrapper.v".
+    Related source file is "C:\Users\DSD\Documents\GitHub\Full_System\hdl\system_axi4_0_wrapper.v".
     Summary:
 	no macro.
 Unit <system_axi4_0_wrapper> synthesized.
@@ -698,7 +698,7 @@ Synthesizing Unit <axi_interconnect>.
         C_S_AXI_BASE_ID = 512'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000010000000000000000000000000000000011000000000000000000000000000000100000000000000000000000000000000100000000000000000000000000000000
         C_S_AXI_THREAD_ID_WIDTH = 512'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
         C_S_AXI_IS_INTERCONNECT = 16'b0000000000000000
-        C_S_AXI_ACLK_RATIO = 512'b00000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000001011111010111100001000000000000000101111101011110000100000000000101111101011110000100000000000001011111010111100001000000000000010111110101111000010000000000000101111101011110000100000000
+        C_S_AXI_ACLK_RATIO = 512'b00000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000001011111010111100001000000000000010111110101111000010000000000000001011111010111100001000000000001011111010111100001000000000000010111110101111000010000000000000101111101011110000100000000
         C_S_AXI_IS_ACLK_ASYNC = 16'b0000000000000000
         C_M_AXI_ACLK_RATIO = 512'b00000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000101111101011110000100000000
         C_M_AXI_IS_ACLK_ASYNC = 16'b0000000000000000
@@ -1120,7 +1120,7 @@ Synthesizing Unit <ict106_converter_bank_1>.
         C_S_AXI_DATA_WIDTH = 512'b00000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000
         C_M_AXI_DATA_WIDTH = 192'b000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000
         C_AXI_PROTOCOL = 512'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-        C_S_AXI_ACLK_RATIO = 512'b00000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000001011111010111100001000000000000000101111101011110000100000000000101111101011110000100000000000001011111010111100001000000000000010111110101111000010000000000000101111101011110000100000000
+        C_S_AXI_ACLK_RATIO = 512'b00000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000001011111010111100001000000000000010111110101111000010000000000000001011111010111100001000000000001011111010111100001000000000000010111110101111000010000000000000101111101011110000100000000
         C_M_AXI_ACLK_RATIO = 192'b000001011111010111100001000000000000010111110101111000010000000000000101111101011110000100000000000001011111010111100001000000000000010111110101111000010000000000000101111101011110000100000000
         C_AXI_IS_ACLK_ASYNC = 16'b0000000000000000
         C_AXI_SUPPORTS_WRITE = 16'b1111111111111011
@@ -3471,8 +3471,8 @@ INFO:Xst:2261 - The FF/Latch <storage_data1_0> in Unit <ict106_axic_register_sli
 WARNING:Xst:1710 - FF/Latch <storage_data2_37> (without init value) has a constant value of 0 in block <ict106_axic_register_slice_6>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <storage_data1_0> (without init value) has a constant value of 0 in block <ict106_axic_register_slice_13>. This FF/Latch will be trimmed during the optimization process.
 Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/FSM_2> on signal <gen_sync_clock_converter.state[1:2]> with gray encoding.
-Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/FSM_2> on signal <gen_sync_clock_converter.state[1:2]> with gray encoding.
+Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/FSM_2> on signal <gen_sync_clock_converter.state[1:2]> with gray encoding.
+Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/FSM_2> on signal <gen_sync_clock_converter.state[1:2]> with gray encoding.
 -------------------
  State | Encoding
 -------------------
@@ -3481,7 +3481,7 @@ Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sy
  00    | 11
 -------------------
 Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/FSM_3> on signal <gen_sync_clock_converter.state[1:2]> with user encoding.
+Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/FSM_3> on signal <gen_sync_clock_converter.state[1:2]> with user encoding.
 -------------------
  State | Encoding
 -------------------
@@ -3491,7 +3491,7 @@ Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sy
  00    | 00
 -------------------
 Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.b_sync_clock_converter/FSM_4> on signal <gen_sync_clock_converter.state[1:2]> with gray encoding.
+Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.b_sync_clock_converter/FSM_4> on signal <gen_sync_clock_converter.state[1:2]> with gray encoding.
 -------------------
  State | Encoding
 -------------------
@@ -3500,7 +3500,7 @@ Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sy
  00    | 11
 -------------------
 Analyzing FSM <MFsm> for best encoding.
-Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/FSM_5> on signal <gen_sync_clock_converter.state[1:2]> with user encoding.
+Optimizing FSM <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/FSM_5> on signal <gen_sync_clock_converter.state[1:2]> with user encoding.
 -------------------
  State | Encoding
 -------------------
@@ -3643,13 +3643,13 @@ Optimizing unit <ict106_addr_arbiter> ...
 
 Optimizing unit <ict106_mux_enc_4> ...
 WARNING:Xst:1303 - From in and out of unit axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst, both signals M_AXI_ACLK and axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK have a KEEP attribute, signal M_AXI_ACLK will be lost.
-WARNING:Xst:1303 - From in and out of unit axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst, both signals M_AXI_ACLK and axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK have a KEEP attribute, signal M_AXI_ACLK will be lost.
+WARNING:Xst:1303 - From in and out of unit axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst, both signals M_AXI_ACLK and axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK have a KEEP attribute, signal M_AXI_ACLK will be lost.
 WARNING:Xst:1303 - From in and out of unit axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst, both signals M_AXI_ACLK and axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK have a KEEP attribute, signal M_AXI_ACLK will be lost.
 WARNING:Xst:1303 - From in and out of unit axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst, both signals M_AXI_ACLK and axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK have a KEEP attribute, signal M_AXI_ACLK will be lost.
-WARNING:Xst:1303 - From in and out of unit axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst, both signals M_AXI_ACLK and axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK have a KEEP attribute, signal M_AXI_ACLK will be lost.
+WARNING:Xst:1303 - From in and out of unit axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst, both signals M_AXI_ACLK and axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK have a KEEP attribute, signal M_AXI_ACLK will be lost.
 WARNING:Xst:1303 - From in and out of unit axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst, both signals S_AXI_ACLK and axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK have a KEEP attribute, signal S_AXI_ACLK will be lost.
-WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_16> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_16> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_16> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_16> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/r_issuing_cnt_8> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/w_issuing_cnt_8> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[1].reg_slice_mi/b_pipe/m_valid_i> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
@@ -3659,10 +3659,10 @@ WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_in
 WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/interconnect_aresetn_pipe_1> of sequential type is unconnected in block <system_axi4_0_wrapper>.
 WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/interconnect_aresetn_pipe_0> of sequential type is unconnected in block <system_axi4_0_wrapper>.
 WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_axi_reset_out_n_i> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/interconnect_aresetn_pipe_2> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/interconnect_aresetn_pipe_1> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/interconnect_aresetn_pipe_0> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_axi_reset_out_n_i> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/interconnect_aresetn_pipe_2> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/interconnect_aresetn_pipe_1> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/interconnect_aresetn_pipe_0> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_axi_reset_out_n_i> of sequential type is unconnected in block <system_axi4_0_wrapper>.
 WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/interconnect_aresetn_pipe_2> of sequential type is unconnected in block <system_axi4_0_wrapper>.
 WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/interconnect_aresetn_pipe_1> of sequential type is unconnected in block <system_axi4_0_wrapper>.
 WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/interconnect_aresetn_pipe_0> of sequential type is unconnected in block <system_axi4_0_wrapper>.
@@ -3671,22 +3671,22 @@ WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_in
 WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/interconnect_aresetn_pipe_1> of sequential type is unconnected in block <system_axi4_0_wrapper>.
 WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/interconnect_aresetn_pipe_0> of sequential type is unconnected in block <system_axi4_0_wrapper>.
 WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_axi_reset_out_n_i> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/interconnect_aresetn_pipe_2> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/interconnect_aresetn_pipe_1> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/interconnect_aresetn_pipe_0> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_62> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_7> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_6> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_5> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_4> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_62> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_7> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_6> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_5> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_4> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.b_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_2> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_35> of sequential type is unconnected in block <system_axi4_0_wrapper>.
-WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.m_tstorage_r_35> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/interconnect_aresetn_pipe_2> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/interconnect_aresetn_pipe_1> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/interconnect_aresetn_pipe_0> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_62> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_7> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_6> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_5> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_4> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_62> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_7> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_6> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_5> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_4> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.b_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_2> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_35> of sequential type is unconnected in block <system_axi4_0_wrapper>.
+WARNING:Xst:2677 - Node <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.m_tstorage_r_35> of sequential type is unconnected in block <system_axi4_0_wrapper>.
 WARNING:Xst:2677 - Node <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_2> of sequential type is unconnected in block <system_axi4_0_wrapper>.
 WARNING:Xst:2677 - Node <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_1> of sequential type is unconnected in block <system_axi4_0_wrapper>.
 WARNING:Xst:2677 - Node <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_0> of sequential type is unconnected in block <system_axi4_0_wrapper>.
@@ -3738,7 +3738,7 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/crossbar_sam
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/m_target_hot_i_1> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
@@ -3758,35 +3758,35 @@ WARNING:Xst:1898 - Due to constant pushing, FF/Latch <axi4_0/crossbar_samd/gen_s
 WARNING:Xst:638 - in unit system_axi4_0_wrapper Conflict on KEEP property on signal axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/fifoaddr<1> and axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/fifoaddr<0> axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[1].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/fifoaddr<0> signal will be lost.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
@@ -3795,45 +3795,45 @@ INFO:Xst:2261 - The FF/Latch <axi4_0/mi_register_slice_bank/gen_reg_slot[0].regi
 INFO:Xst:2261 - The FF/Latch <axi4_0/mi_register_slice_bank/gen_reg_slot[0].register_slice_inst/aw_pipe/areset_d_1> in Unit <system_axi4_0_wrapper> is equivalent to the following 4 FFs/Latches, which will be removed : <axi4_0/mi_register_slice_bank/gen_reg_slot[0].register_slice_inst/ar_pipe/areset_d_1> <axi4_0/mi_register_slice_bank/gen_reg_slot[0].register_slice_inst/w_pipe/areset_d_1> <axi4_0/mi_register_slice_bank/gen_reg_slot[0].register_slice_inst/b_pipe/areset_d_1> <axi4_0/mi_register_slice_bank/gen_reg_slot[0].register_slice_inst/r_pipe/areset_d_1> 
 INFO:Xst:2261 - The FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[5].gen_si_write.wdata_router_w/wrouter_aw_fifo/state_FSM_FFd2> in Unit <system_axi4_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[5].gen_si_write.wdata_router_w/wrouter_aw_fifo/m_valid_i> 
 INFO:Xst:2261 - The FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[1].gen_si_write.wdata_router_w/wrouter_aw_fifo/state_FSM_FFd2> in Unit <system_axi4_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[1].gen_si_write.wdata_router_w/wrouter_aw_fifo/m_valid_i> 
-INFO:Xst:2261 - The FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd1> in Unit <system_axi4_0_wrapper> is equivalent to the following 2 FFs/Latches, which will be removed : <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd1> <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.b_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd1> 
 INFO:Xst:2261 - The FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[4].gen_si_write.wdata_router_w/wrouter_aw_fifo/state_FSM_FFd2> in Unit <system_axi4_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[4].gen_si_write.wdata_router_w/wrouter_aw_fifo/m_valid_i> 
 INFO:Xst:2261 - The FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[0].gen_si_write.wdata_router_w/wrouter_aw_fifo/state_FSM_FFd2> in Unit <system_axi4_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[0].gen_si_write.wdata_router_w/wrouter_aw_fifo/m_valid_i> 
 INFO:Xst:2261 - The FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[3].gen_si_write.wdata_router_w/wrouter_aw_fifo/state_FSM_FFd2> in Unit <system_axi4_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[3].gen_si_write.wdata_router_w/wrouter_aw_fifo/m_valid_i> 
 INFO:Xst:2261 - The FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[0].gen_si_write.wdata_router_w/wrouter_aw_fifo/areset_d1> in Unit <system_axi4_0_wrapper> is equivalent to the following 5 FFs/Latches, which will be removed : <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[3].gen_si_write.wdata_router_w/wrouter_aw_fifo/areset_d1> <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[4].gen_si_write.wdata_router_w/wrouter_aw_fifo/areset_d1> <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[5].gen_si_write.wdata_router_w/wrouter_aw_fifo/areset_d1> <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[1].gen_si_write.wdata_router_w/wrouter_aw_fifo/areset_d1> <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/areset_d1> 
+INFO:Xst:2261 - The FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd1> in Unit <system_axi4_0_wrapper> is equivalent to the following 2 FFs/Latches, which will be removed : <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd1> <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.b_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd1> 
 INFO:Xst:2261 - The FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/state_FSM_FFd2> in Unit <system_axi4_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/m_valid_i> 
-INFO:Xst:2261 - The FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.s_areset_r> in Unit <system_axi4_0_wrapper> is equivalent to the following 4 FFs/Latches, which will be removed : <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.s_areset_r> <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.s_areset_r> <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.b_sync_clock_converter/gen_sync_clock_converter.m_areset_r> <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.m_areset_r> 
-INFO:Xst:2261 - The FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_areset_r> in Unit <system_axi4_0_wrapper> is equivalent to the following 4 FFs/Latches, which will be removed : <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_areset_r> <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_areset_r> <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.b_sync_clock_converter/gen_sync_clock_converter.s_areset_r> <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.s_areset_r> 
+INFO:Xst:2261 - The FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.s_areset_r> in Unit <system_axi4_0_wrapper> is equivalent to the following 4 FFs/Latches, which will be removed : <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.s_areset_r> <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.s_areset_r> <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.b_sync_clock_converter/gen_sync_clock_converter.m_areset_r> <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.m_areset_r> 
+INFO:Xst:2261 - The FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.m_areset_r> in Unit <system_axi4_0_wrapper> is equivalent to the following 4 FFs/Latches, which will be removed : <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.m_areset_r> <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_areset_r> <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.b_sync_clock_converter/gen_sync_clock_converter.s_areset_r> <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.s_areset_r> 
 INFO:Xst:2261 - The FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].reg_slice_mi/b_pipe/areset_d_0> in Unit <system_axi4_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].reg_slice_mi/r_pipe/areset_d_0> 
 INFO:Xst:2261 - The FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/last_rr_hot_3> in Unit <system_axi4_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/m_grant_enc_i_1> 
 INFO:Xst:2261 - The FF/Latch <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].reg_slice_mi/b_pipe/areset_d_1> in Unit <system_axi4_0_wrapper> is equivalent to the following FF/Latch, which will be removed : <axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].reg_slice_mi/r_pipe/areset_d_1> 
-INFO:Xst:3203 - The FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd2> in Unit <system_axi4_0_wrapper> is the opposite to the following FF/Latch, which will be removed : <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.s_tready_r> 
-INFO:Xst:3203 - The FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd2> in Unit <system_axi4_0_wrapper> is the opposite to the following FF/Latch, which will be removed : <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.s_tready_r> 
+INFO:Xst:3203 - The FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd2> in Unit <system_axi4_0_wrapper> is the opposite to the following FF/Latch, which will be removed : <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.aw_sync_clock_converter/gen_sync_clock_converter.s_tready_r> 
+INFO:Xst:3203 - The FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd2> in Unit <system_axi4_0_wrapper> is the opposite to the following FF/Latch, which will be removed : <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.ar_sync_clock_converter/gen_sync_clock_converter.s_tready_r> 
 
 Mapping all equations...
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
@@ -3842,14 +3842,14 @@ Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 0) on block system_axi4_0_wrapper, actual ratio is 6.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
@@ -3857,7 +3857,7 @@ WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_con
 FlipFlop axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/storage_data1_0 has been replicated 1 time(s)
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
@@ -3875,14 +3875,14 @@ Macro Statistics
 =========================================================================
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/m_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset> (without init value) has a constant value of 0 in block <system_axi4_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
@@ -3907,16 +3907,16 @@ Top Level Output File Name         : system_axi4_0_wrapper.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1276
+# BELS                             : 1256
 #      GND                         : 1
 #      INV                         : 27
 #      LUT1                        : 83
-#      LUT2                        : 42
-#      LUT3                        : 354
-#      LUT4                        : 54
-#      LUT5                        : 227
-#      LUT6                        : 264
-#      MUXF7                       : 223
+#      LUT2                        : 35
+#      LUT3                        : 355
+#      LUT4                        : 53
+#      LUT5                        : 221
+#      LUT6                        : 258
+#      MUXF7                       : 222
 #      VCC                         : 1
 # FlipFlops/Latches                : 991
 #      FD                          : 55
@@ -3937,16 +3937,16 @@ Selected Device : 6slx45csg324-3
 
 Slice Logic Utilization: 
  Number of Slice Registers:             991  out of  54576     1%  
- Number of Slice LUTs:                 1062  out of  27288     3%  
-    Number used as Logic:              1051  out of  27288     3%  
+ Number of Slice LUTs:                 1043  out of  27288     3%  
+    Number used as Logic:              1032  out of  27288     3%  
     Number used as Memory:               11  out of   6408     0%  
        Number used as SRL:               11
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1389
-   Number with an unused Flip Flop:     398  out of   1389    28%  
-   Number with an unused LUT:           327  out of   1389    23%  
-   Number of fully used LUT-FF pairs:   664  out of   1389    47%  
+ Number of LUT Flip Flop pairs used:   1432
+   Number with an unused Flip Flop:     441  out of   1432    30%  
+   Number with an unused LUT:           389  out of   1432    27%  
+   Number of fully used LUT-FF pairs:   602  out of   1432    42%  
    Number of unique control sets:        60
 
 IO Utilization: 
@@ -3976,11 +3976,11 @@ Clock Information:
 --------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+-------+
 Clock Signal                                                        | Clock buffer(FF name)                                                                           | Load  |
 --------------------------------------------------------------------+-------------------------------------------------------------------------------------------------+-------+
-axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK| NONE(axi4_0/si_register_slice_bank/gen_reg_slot[4].register_slice_inst/reset)                   | 279   |
+axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK| NONE(axi4_0/si_register_slice_bank/gen_reg_slot[3].register_slice_inst/reset)                   | 279   |
 axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK| NONE(axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/interconnect_aresetn_pipe_2)     | 416   |
 axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/S_AXI_ACLK| NONE(axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/s_async_conv_reset)              | 3     |
 axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/S_AXI_ACLK| NONE(axi4_0/si_converter_bank/gen_conv_slot[1].clock_conv_inst/s_async_conv_reset)              | 3     |
-axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK| NONE(axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/s_async_conv_reset)              | 3     |
+axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK| NONE(axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/s_async_conv_reset)              | 3     |
 axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/S_AXI_ACLK| NONE(axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/s_async_conv_reset)              | 3     |
 axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/S_AXI_ACLK| NONE(axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/s_async_conv_reset)              | 3     |
 axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK| NONE(axi4_0/mi_register_slice_bank/gen_reg_slot[0].register_slice_inst/aw_pipe/storage_data1_64)| 292   |
@@ -3997,7 +3997,7 @@ Speed Grade: -3
 
    Minimum period: 6.134ns (Maximum Frequency: 163.028MHz)
    Minimum input arrival time before clock: 5.258ns
-   Maximum output required time after clock: 3.476ns
+   Maximum output required time after clock: 3.482ns
    Maximum combinational path delay: 2.232ns
 
 Timing Details:
@@ -4005,23 +4005,23 @@ Timing Details:
 All values displayed in nanoseconds (ns)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK'
+Timing constraint: Default period analysis for Clock 'axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK'
   Clock period: 4.118ns (frequency: 242.816MHz)
   Total number of paths / destination ports: 664 / 361
 -------------------------------------------------------------------------
 Delay:               4.118ns (Levels of Logic = 1)
-  Source:            axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd2 (FF)
-  Destination:       axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_36 (FF)
-  Source Clock:      axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK rising
-  Destination Clock: axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK rising
+  Source:            axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd2 (FF)
+  Destination:       axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_36 (FF)
+  Source Clock:      axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK rising
+  Destination Clock: axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK rising
 
-  Data Path: axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd2 to axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_36
+  Data Path: axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd2 to axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_36
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDR:C->Q             41   0.447   1.784  axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd2 (axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd2)
-     LUT6:I0->O           37   0.203   1.362  axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.load_tpayload1 (axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.load_tpayload)
-     FDE:CE                    0.322          axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_0
+     FDR:C->Q             41   0.447   1.784  axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd2 (axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.state_FSM_FFd2)
+     LUT6:I0->O           37   0.203   1.362  axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.load_tpayload1 (axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.load_tpayload)
+     FDE:CE                    0.322          axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_0
     ----------------------------------------
     Total                      4.118ns (0.972ns logic, 3.146ns route)
                                        (23.6% logic, 76.4% route)
@@ -4029,7 +4029,7 @@ Delay:               4.118ns (Levels of Logic = 1)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK'
   Clock period: 6.134ns (frequency: 163.028MHz)
-  Total number of paths / destination ports: 11337 / 758
+  Total number of paths / destination ports: 11089 / 758
 -------------------------------------------------------------------------
 Delay:               6.134ns (Levels of Logic = 5)
   Source:            axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/s_ready_i_1 (FF)
@@ -4141,23 +4141,23 @@ Delay:               1.913ns (Levels of Logic = 1)
                                        (39.5% logic, 60.5% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK'
+Timing constraint: Default period analysis for Clock 'axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK'
   Clock period: 1.913ns (frequency: 522.821MHz)
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
 Delay:               1.913ns (Levels of Logic = 1)
-  Source:            axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/s_axi_reset_out_n_i (FF)
-  Destination:       axi4_0/si_register_slice_bank/gen_reg_slot[3].register_slice_inst/reset (FF)
-  Source Clock:      axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK rising
-  Destination Clock: axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK rising
+  Source:            axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/s_axi_reset_out_n_i (FF)
+  Destination:       axi4_0/si_register_slice_bank/gen_reg_slot[4].register_slice_inst/reset (FF)
+  Source Clock:      axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK rising
+  Destination Clock: axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK rising
 
-  Data Path: axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/s_axi_reset_out_n_i to axi4_0/si_register_slice_bank/gen_reg_slot[3].register_slice_inst/reset
+  Data Path: axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/s_axi_reset_out_n_i to axi4_0/si_register_slice_bank/gen_reg_slot[4].register_slice_inst/reset
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               1   0.447   0.579  axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/s_axi_reset_out_n_i (axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/s_axi_reset_out_n_i)
-     INV:I->O              1   0.206   0.579  axi4_0/si_register_slice_bank/gen_reg_slot[3].register_slice_inst/reset_rstpot1_INV_0 (axi4_0/si_register_slice_bank/gen_reg_slot[3].register_slice_inst/reset_rstpot)
-     FD:D                      0.102          axi4_0/si_register_slice_bank/gen_reg_slot[3].register_slice_inst/reset
+     FD:C->Q               1   0.447   0.579  axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/s_axi_reset_out_n_i (axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/s_axi_reset_out_n_i)
+     INV:I->O              1   0.206   0.579  axi4_0/si_register_slice_bank/gen_reg_slot[4].register_slice_inst/reset_rstpot1_INV_0 (axi4_0/si_register_slice_bank/gen_reg_slot[4].register_slice_inst/reset_rstpot)
+     FD:D                      0.102          axi4_0/si_register_slice_bank/gen_reg_slot[4].register_slice_inst/reset
     ----------------------------------------
     Total                      1.913ns (0.755ns logic, 1.158ns route)
                                        (39.5% logic, 60.5% route)
@@ -4186,7 +4186,7 @@ Delay:               1.913ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK'
-  Total number of paths / destination ports: 2827 / 317
+  Total number of paths / destination ports: 2668 / 317
 -------------------------------------------------------------------------
 Offset:              5.232ns (Levels of Logic = 5)
   Source:            S_AXI_ARVALID<1> (PAD)
@@ -4208,20 +4208,20 @@ Offset:              5.232ns (Levels of Logic = 5)
                                        (25.9% logic, 74.1% route)
 
 =========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK'
+Timing constraint: Default OFFSET IN BEFORE for Clock 'axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK'
   Total number of paths / destination ports: 271 / 271
 -------------------------------------------------------------------------
 Offset:              1.862ns (Levels of Logic = 1)
-  Source:            S_AXI_RREADY<4> (PAD)
-  Destination:       axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_34 (FF)
-  Destination Clock: axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK rising
+  Source:            S_AXI_RREADY<3> (PAD)
+  Destination:       axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_34 (FF)
+  Destination Clock: axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK rising
 
-  Data Path: S_AXI_RREADY<4> to axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_34
+  Data Path: S_AXI_RREADY<3> to axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_34
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT3:I2->O           35   0.205   1.334  axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.load_tpayload1 (axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.load_tpayload)
-     FDE:CE                    0.322          axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_0
+     LUT3:I2->O           35   0.205   1.334  axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.load_tpayload1 (axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.load_tpayload)
+     FDE:CE                    0.322          axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_read_ch.r_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_0
     ----------------------------------------
     Total                      1.862ns (0.528ns logic, 1.334ns route)
                                        (28.4% logic, 71.6% route)
@@ -4268,41 +4268,41 @@ Offset:              0.447ns (Levels of Logic = 0)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK'
-  Total number of paths / destination ports: 191 / 191
--------------------------------------------------------------------------
-Offset:              2.430ns (Levels of Logic = 2)
-  Source:            axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_0 (FF)
-  Destination:       DEBUG_CB_MF_WDATACONTROL<2> (PAD)
-  Source Clock:      axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK rising
-
-  Data Path: axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_0 to DEBUG_CB_MF_WDATACONTROL<2>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDE:C->Q              3   0.447   0.995  axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_0 (axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_0)
-     LUT6:I1->O            1   0.203   0.580  axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/out1 (axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/out)
-     LUT5:I4->O            9   0.205   0.000  axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/out2 (DEBUG_MP_MR_WDATACONTROL<2>)
-    ----------------------------------------
-    Total                      2.430ns (0.855ns logic, 1.575ns route)
-                                       (35.2% logic, 64.8% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK'
   Total number of paths / destination ports: 1 / 1
 -------------------------------------------------------------------------
 Offset:              0.447ns (Levels of Logic = 0)
-  Source:            axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/s_axi_reset_out_n_i (FF)
-  Destination:       S_AXI_ARESET_OUT_N<3> (PAD)
-  Source Clock:      axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK rising
+  Source:            axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/s_axi_reset_out_n_i (FF)
+  Destination:       S_AXI_ARESET_OUT_N<4> (PAD)
+  Source Clock:      axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK rising
 
-  Data Path: axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/s_axi_reset_out_n_i to S_AXI_ARESET_OUT_N<3>
+  Data Path: axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/s_axi_reset_out_n_i to S_AXI_ARESET_OUT_N<4>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               1   0.447   0.000  axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/s_axi_reset_out_n_i (axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/s_axi_reset_out_n_i)
+     FD:C->Q               1   0.447   0.000  axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/s_axi_reset_out_n_i (axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/s_axi_reset_out_n_i)
     ----------------------------------------
     Total                      0.447ns (0.447ns logic, 0.000ns route)
                                        (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK'
+  Total number of paths / destination ports: 191 / 191
+-------------------------------------------------------------------------
+Offset:              1.591ns (Levels of Logic = 2)
+  Source:            axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_36 (FF)
+  Destination:       DEBUG_CB_MF_WDATA<31> (PAD)
+  Source Clock:      axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK rising
+
+  Data Path: axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_36 to DEBUG_CB_MF_WDATA<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.447   0.808  axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_36 (axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/gen_sync_conv.gen_conv_write_ch.w_sync_clock_converter/gen_sync_clock_converter.m_tpayload_r_36)
+     LUT5:I2->O            1   0.205   0.000  axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.mux_w/gen_fpga.l<31>1 (axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.mux_w/gen_fpga.l<31>)
+     MUXF7:I0->O           2   0.131   0.000  axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.mux_w/gen_fpga.gen_mux_5_8[31].mux_s2_inst (DEBUG_MP_MR_WDATA<31>)
+    ----------------------------------------
+    Total                      1.591ns (0.783ns logic, 0.808ns route)
+                                       (49.2% logic, 50.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'axi4_0/si_converter_bank/gen_conv_slot[2].clock_conv_inst/S_AXI_ACLK'
@@ -4382,7 +4382,7 @@ Offset:              3.060ns (Levels of Logic = 2)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK'
   Total number of paths / destination ports: 1618 / 972
 -------------------------------------------------------------------------
-Offset:              3.476ns (Levels of Logic = 2)
+Offset:              3.482ns (Levels of Logic = 2)
   Source:            axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/storage_data1_0 (FF)
   Destination:       S_AXI_WREADY<5> (PAD)
   Source Clock:      axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK rising
@@ -4391,12 +4391,12 @@ Offset:              3.476ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q             79   0.447   1.739  axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/storage_data1_0 (axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/storage_data1_0)
+     FDE:C->Q             80   0.447   1.746  axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/storage_data1_0 (axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/storage_data1_0)
      LUT5:I4->O            3   0.205   0.879  axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_master_slots[0].gen_mi_write.wdata_mux_w/S_WREADY<5>1 (axi4_0/crossbar_samd/gen_samd.crossbar_samd/n0823<5>)
      LUT3:I0->O            0   0.205   0.000  axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.gen_slave_slots[5].gen_si_write.wdata_router_w/S_WREADY1 (S_AXI_WREADY<5>)
     ----------------------------------------
-    Total                      3.476ns (0.857ns logic, 2.619ns route)
-                                       (24.7% logic, 75.3% route)
+    Total                      3.482ns (0.857ns logic, 2.625ns route)
+                                       (24.6% logic, 75.4% route)
 
 =========================================================================
 Timing constraint: Default path analysis
@@ -4428,8 +4428,8 @@ Clock to Setup on destination clock axi4_0/mi_converter_bank/gen_conv_slot[0].cl
 Source Clock                                                        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------------------------------------------------------+---------+---------+---------+---------+
 axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK|    3.901|         |         |         |
-axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK|    6.304|         |         |         |
-axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK|    3.669|         |         |         |
+axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK|    6.298|         |         |         |
+axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK|    2.770|         |         |         |
 --------------------------------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK
@@ -4439,7 +4439,7 @@ Source Clock                                                        |Dest:Rise|D
 --------------------------------------------------------------------+---------+---------+---------+---------+
 axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK|    4.915|         |         |         |
 axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK|    6.134|         |         |         |
-axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK|    4.571|         |         |         |
+axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK|    4.306|         |         |         |
 --------------------------------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/S_AXI_ACLK
@@ -4474,8 +4474,9 @@ Clock to Setup on destination clock axi4_0/si_converter_bank/gen_conv_slot[3].cl
                                                                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                                                        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------------------------------------------------------+---------+---------+---------+---------+
-axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK|    1.378|         |         |         |
-axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK|    1.913|         |         |         |
+axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK|    4.981|         |         |         |
+axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK|    5.222|         |         |         |
+axi4_0/si_converter_bank/gen_conv_slot[3].clock_conv_inst/S_AXI_ACLK|    4.118|         |         |         |
 --------------------------------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK
@@ -4483,9 +4484,8 @@ Clock to Setup on destination clock axi4_0/si_converter_bank/gen_conv_slot[4].cl
                                                                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                                                        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------------------------------------------------------+---------+---------+---------+---------+
-axi4_0/mi_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK|    4.981|         |         |         |
-axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK|    5.222|         |         |         |
-axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK|    4.118|         |         |         |
+axi4_0/si_converter_bank/gen_conv_slot[0].clock_conv_inst/M_AXI_ACLK|    1.378|         |         |         |
+axi4_0/si_converter_bank/gen_conv_slot[4].clock_conv_inst/S_AXI_ACLK|    1.913|         |         |         |
 --------------------------------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/S_AXI_ACLK
@@ -4500,12 +4500,12 @@ axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/S_AXI_ACLK|    1.913| 
 =========================================================================
 
 
-Total REAL time to Xst completion: 43.00 secs
-Total CPU time to Xst completion: 43.89 secs
+Total REAL time to Xst completion: 36.00 secs
+Total CPU time to Xst completion: 36.36 secs
  
 --> 
 
-Total memory usage is 348860 kilobytes
+Total memory usage is 350720 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  506 (   0 filtered)

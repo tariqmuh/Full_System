@@ -1,7 +1,7 @@
 Release 14.2 par P.28xd (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-ADMIN-PC::  Wed Apr 02 13:51:14 2014
+JOYCHEN-PC::  Sat Apr 05 13:14:07 2014
 
 par -w -ol high system_map.ncd system.ncd system.pcf 
 
@@ -11,7 +11,14 @@ Loading device for application Rf_Device from file '6slx45.nph' in environment
 C:\Xilinx\14.2\ISE_DS\ISE\;C:\Xilinx\14.2\ISE_DS\EDK.
    "system" is an NCD, version 3.2, device xc6slx45, package csg324, speed -3
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:51 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to '40012@localhost;27012@localhost'.
 INFO:Security:54 - 'xc6slx45' is a WebPack part.
+WARNING:Security:43 - No license file was found in the standard Xilinx license directory.
+WARNING:Security:44 - Since no license file was found,
+       please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses")
+       to assist in obtaining a license.
 WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue
 to function, but you no longer qualify for Xilinx software updates or new releases.
 
@@ -28,16 +35,16 @@ Device speed data version:  "PRODUCTION 1.22 2012-07-09".
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                 7,876 out of  54,576   14%
-    Number used as Flip Flops:               7,851
+  Number of Slice Registers:                 7,331 out of  54,576   13%
+    Number used as Flip Flops:               7,295
     Number used as Latches:                      3
     Number used as Latch-thrus:                  0
-    Number used as AND/OR logics:               22
-  Number of Slice LUTs:                      8,966 out of  27,288   32%
-    Number used as logic:                    7,535 out of  27,288   27%
-      Number using O6 output only:           5,689
-      Number using O5 output only:             232
-      Number using O5 and O6:                1,614
+    Number used as AND/OR logics:               33
+  Number of Slice LUTs:                      8,641 out of  27,288   31%
+    Number used as logic:                    7,252 out of  27,288   26%
+      Number using O6 output only:           5,503
+      Number using O5 output only:             140
+      Number using O5 and O6:                1,609
       Number used as ROM:                        0
     Number used as Memory:                   1,074 out of   6,408   16%
       Number used as Dual Port RAM:            208
@@ -52,18 +59,18 @@ Slice Logic Utilization:
         Number using O6 output only:           745
         Number using O5 output only:             1
         Number using O5 and O6:                 86
-    Number used exclusively as route-thrus:    357
-      Number with same-slice register load:    239
-      Number with same-slice carry load:       117
+    Number used exclusively as route-thrus:    315
+      Number with same-slice register load:    200
+      Number with same-slice carry load:       114
       Number with other load:                    1
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 3,745 out of   6,822   54%
-  Nummber of MUXCYs used:                    1,256 out of  13,644    9%
-  Number of LUT Flip Flop pairs used:       11,126
-    Number with an unused Flip Flop:         4,031 out of  11,126   36%
-    Number with an unused LUT:               2,160 out of  11,126   19%
-    Number of fully used LUT-FF pairs:       4,935 out of  11,126   44%
+  Number of occupied Slices:                 3,435 out of   6,822   50%
+  Nummber of MUXCYs used:                    1,292 out of  13,644    9%
+  Number of LUT Flip Flop pairs used:       10,404
+    Number with an unused Flip Flop:         3,791 out of  10,404   36%
+    Number with an unused LUT:               1,763 out of  10,404   16%
+    Number of fully used LUT-FF pairs:       4,850 out of  10,404   46%
     Number of slice register sites lost
       to control set restrictions:               0 out of  54,576    0%
 
@@ -74,15 +81,15 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                       104 out of     218   47%
-    Number of LOCed IOBs:                      104 out of     104  100%
+  Number of bonded IOBs:                       105 out of     218   48%
+    Number of LOCed IOBs:                      105 out of     105  100%
     IOB Flip Flops:                             10
     IOB Latches:                                 8
     IOB Master Pads:                             4
     IOB Slave Pads:                              4
 
 Specific Feature Utilization:
-  Number of RAMB16BWERs:                        38 out of     116   32%
+  Number of RAMB16BWERs:                        46 out of     116   39%
   Number of RAMB8BWERs:                          1 out of     232    1%
   Number of BUFIO2/BUFIO2_2CLKs:                 1 out of      32    3%
     Number used as BUFIO2s:                      1
@@ -122,8 +129,8 @@ Router effort level (-rl):    High
 WARNING:Timing:3223 - Timing constraint PATH "TS_TIG_MCB_DDR2_CALIB_DONE_SYNCH_path" TIG; ignored during timing analysis.
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 46 secs 
-Finished initial Timing Analysis.  REAL time: 47 secs 
+Starting initial Timing Analysis.  REAL time: 44 secs 
+Finished initial Timing Analysis.  REAL time: 45 secs 
 
 WARNING:Par:288 - The signal vmodcam_0/vmodcam_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_MSTR_PCC/Mcount_sig_addr_cntr_msh_cy<14> has no
    load.  PAR will not attempt to route this signal.
@@ -135,142 +142,142 @@ WARNING:Par:288 - The signal
    axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/gen_arbiter.mux_mesg/gen_fpga.l<60> has no load.  PAR
    will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/gen_arbiter.mux_mesg/gen_fpga.l<57> has no load.  PAR
-   will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/gen_arbiter.mux_mesg/gen_fpga.l<58> has no load.  PAR
-   will not attempt to route this signal.
-WARNING:Par:288 - The signal
    axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/gen_arbiter.mux_mesg/gen_fpga.l<50> has no load.  PAR
    will not attempt to route this signal.
 WARNING:Par:288 - The signal
    axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/gen_arbiter.mux_mesg/gen_fpga.l<48> has no load.  PAR
    will not attempt to route this signal.
 WARNING:Par:288 - The signal
+   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/gen_arbiter.mux_mesg/gen_fpga.l<57> has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/gen_arbiter.mux_mesg/gen_fpga.l<58> has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
    axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/gen_arbiter.mux_mesg/gen_fpga.l<49> has no load.  PAR
-   will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/gen_arbiter.mux_mesg/gen_fpga.l<59> has no load.  PAR
-   will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM9_RAMD_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM8_RAMD_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM7_RAMD_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM6_RAMD_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM3_RAMD_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM10_RAMD_O has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM5_RAMD_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM4_RAMD_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<49> has no load.  PAR
-   will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<50> has no load.  PAR
-   will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<48> has no load.  PAR
-   will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<60> has no load.  PAR
-   will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<57> has no load.  PAR
    will not attempt to route this signal.
 WARNING:Par:288 - The signal
    axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<58> has no load.  PAR
    will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<59> has no load.  PAR
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_aw/gen_arbiter.mux_mesg/gen_fpga.l<59> has no load.  PAR
    will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM8_RAMD_O has no
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM10_RAMD_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM6_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM9_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<59> has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_bmesg_mux_inst/gen_fpga.l<0> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_rmesg_mux_inst/gen_fpga.l<1> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<60> has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<57> has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<48> has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<50> has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   axi4_0/axi4_0/crossbar_samd/gen_samd.crossbar_samd/gen_crossbar.addr_arbiter_ar/gen_arbiter.mux_mesg/gen_fpga.l<49> has no load.  PAR
+   will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM7_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM8_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM4_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal microblaze_0_d_bram_ctrl_2_microblaze_0_bram_block_BRAM_Addr<31> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM5_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMB_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM3_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy4_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal microblaze_0_d_bram_ctrl_2_microblaze_0_bram_block_BRAM_Addr<30> has no load.  PAR will not attempt to route
+   this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy3_RAMD_D1_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM9_RAMD_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM3_RAMD_O has no
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM8_RAMD_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM5_RAMD_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM6_RAMD_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM7_RAMD_O has no
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM4_RAMD_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM2_RAMD_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM4_RAMD_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy3_RAMD_D1_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_rmesg_mux_inst/gen_fpga.l<1> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM10_RAMD_O has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy1_RAMD_D1_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy2_RAMD_D1_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy4_RAMD_D1_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy5_RAMD_D1_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal axi4lite_0/axi4lite_0/crossbar_samd/gen_sasd.crossbar_sasd_0/gen_crossbar.mi_bmesg_mux_inst/gen_fpga.l<0> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal microblaze_0_d_bram_ctrl_2_microblaze_0_bram_block_BRAM_Addr<31> has no load.  PAR will not attempt to route
-   this signal.
-WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[14].ram32m_i_RAMD_D1_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[15].ram32m_i_RAMD_D1_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[8].ram32m_i_RAMD_D1_O has no
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM3_RAMD_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[9].ram32m_i_RAMD_D1_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[3].ram32m_i_RAMD_D1_O has no
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[14].ram32m_i_RAMD_D1_O has no
    load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal microblaze_0_d_bram_ctrl_2_microblaze_0_bram_block_BRAM_Addr<30> has no load.  PAR will not attempt to route
-   this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[12].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy2_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Using_DCache.Using_WriteThrough.DCache_I1/Mram_cacheline_copy1_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal vmodcam_0/vmodcam_0/USER_LOGIC_I/Mmux_LED_O[7]_bus2ip_mst_cmdack_MUX_1205_o_8 has no load.  PAR will not
+   attempt to route this signal.
+WARNING:Par:288 - The signal
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM10_RAMD_O has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM7_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM6_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   vmodcam_0/vmodcam_0/USER_LOGIC_I/CAMA_FIFO/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/Mram_RAM1_RAMD_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal vmodcam_0/vmodcam_0/USER_LOGIC_I/Mmux_LED_O[7]_p1_wr_data[0]_MUX_1257_o_8 has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal vmodcam_0/vmodcam_0/USER_LOGIC_I/Mmux_LED_O[7]_p1_wr_data[1]_MUX_1244_o_8 has no load.  PAR will not attempt to
+   route this signal.
 WARNING:Par:288 - The signal
    microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[11].ram32m_i_RAMD_D1_O has no
    load.  PAR will not attempt to route this signal.
@@ -278,64 +285,70 @@ WARNING:Par:288 - The signal
    microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[13].ram32m_i_RAMD_D1_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[12].ram32m_i_RAMD_D1_O has no
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[15].ram32m_i_RAMD_D1_O has no
    load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[5].ram32m_i_RAMD_D1_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[2].ram32m_i_RAMD_D1_O has no
-   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal vmodcam_0/vmodcam_0/USER_LOGIC_I/Mmux_LED_O[7]_p1_fifo_full_MUX_1231_o_8 has no load.  PAR will not attempt to
+   route this signal.
+WARNING:Par:288 - The signal vmodcam_0/vmodcam_0/USER_LOGIC_I/Mmux_LED_O[7]_p1_wr_empty_MUX_1218_o_8 has no load.  PAR will not attempt to
+   route this signal.
 WARNING:Par:288 - The signal
    microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[10].ram32m_i_RAMD_D1_O has no
-   load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[4].ram32m_i_RAMD_D1_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[7].ram32m_i_RAMD_D1_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[6].ram32m_i_RAMD_D1_O has no
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[2].ram32m_i_RAMD_D1_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[0].ram32m_i_RAMD_D1_O has no
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[4].ram32m_i_RAMD_D1_O has no
    load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[1].ram32m_i_RAMD_D1_O has no
    load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal vmodcam_0/vmodcam_0/USER_LOGIC_I/Mmux_LED_O[7]_pa_wr_data_sel_MUX_1192_o_8 has no load.  PAR will not attempt
+   to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[8].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[3].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[6].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[5].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[0].ram32m_i_RAMD_D1_O has no
+   load.  PAR will not attempt to route this signal.
 Starting Router
 
 
-Phase  1  : 62420 unrouted;      REAL time: 55 secs 
+Phase  1  : 61058 unrouted;      REAL time: 51 secs 
 
-Phase  2  : 51854 unrouted;      REAL time: 1 mins 2 secs 
+Phase  2  : 49987 unrouted;      REAL time: 57 secs 
 
-Phase  3  : 21132 unrouted;      REAL time: 1 mins 54 secs 
+Phase  3  : 20724 unrouted;      REAL time: 1 mins 39 secs 
 
-Phase  4  : 21132 unrouted; (Setup:0, Hold:101374, Component Switching Limit:0)     REAL time: 2 mins 3 secs 
+Phase  4  : 20761 unrouted; (Setup:21, Hold:97170, Component Switching Limit:0)     REAL time: 1 mins 52 secs 
 
 Updating file: system.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:98295, Component Switching Limit:0)     REAL time: 3 mins 19 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:97810, Component Switching Limit:0)     REAL time: 2 mins 57 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:98295, Component Switching Limit:0)     REAL time: 3 mins 19 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:97810, Component Switching Limit:0)     REAL time: 2 mins 57 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:98295, Component Switching Limit:0)     REAL time: 3 mins 19 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:97810, Component Switching Limit:0)     REAL time: 2 mins 57 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:98295, Component Switching Limit:0)     REAL time: 3 mins 19 secs 
-WARNING:Route:522 - Unusually high hold time violation detected among 2 connections.The router will continue and try to fix it 
-	hdmi_out_0/hdmi_out_0/USER_LOGIC_I/DATA_CAPTURE_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/cnt_i<9>:BQ ->
-hdmi_out_0/hdmi_out_0/USER_LOGIC_I/hdmi_core_inst/video_data_d1<23>:C3 -2184
-	hdmi_out_0/hdmi_out_0/USER_LOGIC_I/DATA_CAPTURE_FIFO_I/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/cnt_i<9>:BQ ->
-hdmi_out_0/hdmi_out_0/USER_LOGIC_I/hdmi_core_inst/video_data_d1<23>:A3 -2081
+Phase  8  : 0 unrouted; (Setup:0, Hold:97810, Component Switching Limit:0)     REAL time: 2 mins 57 secs 
 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 mins 1 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 mins 27 secs 
-
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 mins 36 secs 
-Total REAL time to Router completion: 3 mins 36 secs 
-Total CPU time to Router completion: 3 mins 15 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 mins 8 secs 
+Total REAL time to Router completion: 3 mins 8 secs 
+Total CPU time to Router completion: 2 mins 56 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -353,37 +366,44 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-| clk_100_0000MHzPLL0 |  BUFGMUX_X2Y2| No   | 2428 |  0.567     |  1.778      |
+| clk_100_0000MHzPLL0 |  BUFGMUX_X2Y2| No   | 2267 |  0.566     |  1.778      |
 +---------------------+--------------+------+------+------------+-------------+
-|          clk_25_MHz | BUFGMUX_X3Y13| No   |  517 |  0.062     |  1.274      |
+|          clk_25_MHz | BUFGMUX_X3Y13| No   |  520 |  0.063     |  1.275      |
 +---------------------+--------------+------+------+------------+-------------+
 |clock_generator_0_CL |              |      |      |            |             |
-|             KOUT4_0 |  BUFGMUX_X2Y3| No   |   85 |  0.520     |  1.762      |
+|             KOUT4_0 |  BUFGMUX_X2Y3| No   |   83 |  0.518     |  1.760      |
++---------------------+--------------+------+------+------------+-------------+
+|vmodcam_0/vmodcam_0/ |              |      |      |            |             |
+|   USER_LOGIC_I/CLKA |  BUFGMUX_X2Y9| No   |   32 |  0.040     |  1.254      |
 +---------------------+--------------+------+------+------------+-------------+
 |pll_module_0_CLKOUT1 |              |      |      |            |             |
-|                     | BUFGMUX_X2Y10| No   |   63 |  0.035     |  1.253      |
-+---------------------+--------------+------+------+------------+-------------+
-|microblaze_0_debug_D |              |      |      |            |             |
-|              bg_Clk |  BUFGMUX_X2Y4| No   |   61 |  0.041     |  1.252      |
-+---------------------+--------------+------+------+------------+-------------+
-|vmodcam_0/vmodcam_0/ |              |      |      |            |             |
-|   USER_LOGIC_I/CLKB | BUFGMUX_X2Y11| No   |   33 |  0.041     |  1.278      |
-+---------------------+--------------+------+------+------------+-------------+
-|vmodcam_0/vmodcam_0/ |              |      |      |            |             |
-|   USER_LOGIC_I/CLKA |  BUFGMUX_X2Y9| No   |   33 |  0.061     |  1.277      |
+|                     | BUFGMUX_X2Y10| No   |   60 |  0.018     |  1.233      |
 +---------------------+--------------+------+------+------------+-------------+
 |pll_module_0_CLKOUT2 |              |      |      |            |             |
-|                     |  BUFGMUX_X2Y1| No   |   26 |  0.229     |  1.456      |
+|                     |  BUFGMUX_X2Y1| No   |   24 |  0.233     |  1.456      |
++---------------------+--------------+------+------+------------+-------------+
+|vmodcam_0/vmodcam_0/ |              |      |      |            |             |
+|   USER_LOGIC_I/CLKB | BUFGMUX_X2Y11| No   |   32 |  0.057     |  1.278      |
++---------------------+--------------+------+------+------------+-------------+
+|microblaze_0_debug_D |              |      |      |            |             |
+|              bg_Clk |  BUFGMUX_X2Y4| No   |   60 |  0.039     |  1.251      |
 +---------------------+--------------+------+------+------------+-------------+
 |clock_generator_0_CL |              |      |      |            |             |
 |               KOUT5 | BUFGMUX_X2Y12| No   |    2 |  0.022     |  1.745      |
 +---------------------+--------------+------+------+------------+-------------+
 |microblaze_0_debug_D |              |      |      |            |             |
-|           bg_Update |         Local|      |   20 |  4.484     |  6.013      |
+|           bg_Update |         Local|      |   21 |  4.584     |  6.145      |
 +---------------------+--------------+------+------+------------+-------------+
-|vmodcam_0/vmodcam_0/ |              |      |      |            |             |
-|USER_LOGIC_I/SW_I[3] |              |      |      |            |             |
-|   _SW_I[3]_OR_249_o |         Local|      |    8 |  5.647     |  7.504      |
+|load_bram_0/load_bra |              |      |      |            |             |
+|m_0/USER_LOGIC_I/SW_ |              |      |      |            |             |
+|I[3]_SW_I[3]_OR_272_ |              |      |      |            |             |
+|                   o |         Local|      |    8 |  5.007     |  7.264      |
++---------------------+--------------+------+------+------------+-------------+
+|load_bram_0/load_bra |              |      |      |            |             |
+|m_0/USER_LOGIC_I/Dis |              |      |      |            |             |
+|p_Map_Calc_inst/curr |              |      |      |            |             |
+|_state[2]_PWR_72_o_M |              |      |      |            |             |
+|             ux_25_o |         Local|      |    1 |  0.000     |  0.306      |
 +---------------------+--------------+------+------+------------+-------------+
 |MCB_DDR2/sysclk_2x_b |              |      |      |            |             |
 |             ufpll_o |         Local|      |   34 |  0.571     |  1.543      |
@@ -421,12 +441,6 @@ Generating Clock Report
 |ut_native_inst/pclkx |              |      |      |            |             |
 |                  10 |         Local|      |    8 |  0.000     |  1.463      |
 +---------------------+--------------+------+------+------------+-------------+
-|load_bram_0/load_bra |              |      |      |            |             |
-|m_0/USER_LOGIC_I/Dis |              |      |      |            |             |
-|p_Map_Calc_inst/curr |              |      |      |            |             |
-|_state[2]_PWR_72_o_M |              |      |      |            |             |
-|             ux_25_o |         Local|      |    1 |  0.000     |  0.756      |
-+---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
 only delays for the net. Note this is different from Clock Skew which
@@ -447,14 +461,14 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     0.028ns|     9.972ns|       0|           0
-  G_PLL0_CLKOUT2 = PERIOD TIMEGRP         " | HOLD        |     0.167ns|            |       0|           0
+  OFFSET = IN 1.25 ns VALID 7.5 ns BEFORE C | SETUP       |     0.021ns|     1.229ns|       0|           0
+  OMP "CAMA_PCLK_I" "RISING"                | HOLD        |     6.099ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     0.032ns|     9.968ns|       0|           0
+  G_PLL0_CLKOUT2 = PERIOD TIMEGRP         " | HOLD        |     0.160ns|            |       0|           0
   clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
   LL0_CLKOUT2" TS_sys_clk_pin         HIGH  |             |            |            |        |            
   50%                                       |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  OFFSET = IN 1.25 ns VALID 7.5 ns BEFORE C | SETUP       |     0.119ns|     1.131ns|       0|           0
-  OMP "CAMA_PCLK_I" "RISING"                | HOLD        |     5.890ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
   TS_clk_600_0000MHzPLL0_nobuf = PERIOD TIM | MINPERIOD   |     0.167ns|     1.499ns|       0|           0
   EGRP "clk_600_0000MHzPLL0_nobuf"          |             |            |            |        |            
@@ -465,38 +479,38 @@ Asterisk (*) preceding a constraint indicates it was not met.
   obuf" TS_sys_clk_pin * 6 PHASE 0.83333333 |             |            |            |        |            
   3 ns         HIGH 50%                     |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  OFFSET = IN 1.25 ns VALID 7.5 ns BEFORE C | SETUP       |     0.219ns|     1.031ns|       0|           0
-  OMP "CAMB_PCLK_I" "RISING"                | HOLD        |     5.952ns|            |       0|           0
+  OFFSET = IN 1.25 ns VALID 7.5 ns BEFORE C | SETUP       |     0.179ns|     1.071ns|       0|           0
+  OMP "CAMB_PCLK_I" "RISING"                | HOLD        |     5.994ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
   TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_ | MINLOWPULSE |     6.666ns|     3.334ns|       0|           0
   pin" 100 MHz HIGH 50%                     |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     2.583ns|    29.668ns|       0|           0
-  G_PLL0_CLKOUT3 = PERIOD TIMEGRP         " | HOLD        |     0.356ns|            |       0|           0
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |     2.477ns|    30.092ns|       0|           0
+  G_PLL0_CLKOUT3 = PERIOD TIMEGRP         " | HOLD        |     0.275ns|            |       0|           0
   clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
   LL0_CLKOUT3" TS_sys_clk_pin         * 0.2 |             |            |            |        |            
   5 HIGH 50%                                |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_CAMA_PCLK_I = PERIOD TIMEGRP "CAMA_PCL | SETUP       |     7.422ns|     5.078ns|       0|           0
-  K_I" 80 MHz HIGH 50%                      | HOLD        |     0.381ns|            |       0|           0
+  TS_CAMB_PCLK_I = PERIOD TIMEGRP "CAMB_PCL | SETUP       |     7.929ns|     4.571ns|       0|           0
+  K_I" 80 MHz HIGH 50%                      | HOLD        |     0.330ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_CAMB_PCLK_I = PERIOD TIMEGRP "CAMB_PCL | SETUP       |     7.489ns|     5.011ns|       0|           0
-  K_I" 80 MHz HIGH 50%                      | HOLD        |     0.309ns|            |       0|           0
+  TS_CAMA_PCLK_I = PERIOD TIMEGRP "CAMA_PCL | SETUP       |     8.805ns|     3.695ns|       0|           0
+  K_I" 80 MHz HIGH 50%                      | HOLD        |     0.324ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_pll_module_0_pll_module_0_CLKOUT2_BUF  | SETUP       |    13.499ns|     6.501ns|       0|           0
-  = PERIOD TIMEGRP         "pll_module_0_pl | HOLD        |     0.042ns|            |       0|           0
+  TS_pll_module_0_pll_module_0_CLKOUT2_BUF  | SETUP       |    15.044ns|     4.956ns|       0|           0
+  = PERIOD TIMEGRP         "pll_module_0_pl | HOLD        |     0.370ns|            |       0|           0
   l_module_0_CLKOUT2_BUF"         TS_clock_ |             |            |            |        |            
   generator_0_clock_generator_0_SIG_PLL0_CL |             |            |            |        |            
   KOUT3 * 2 HIGH 50%                        |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_pll_module_0_pll_module_0_CLKOUT1_BUF  | SETUP       |    24.104ns|    15.896ns|       0|           0
-  = PERIOD TIMEGRP         "pll_module_0_pl | HOLD        |     0.017ns|            |       0|           0
+  TS_pll_module_0_pll_module_0_CLKOUT1_BUF  | SETUP       |    28.790ns|    11.210ns|       0|           0
+  = PERIOD TIMEGRP         "pll_module_0_pl | HOLD        |     0.011ns|            |       0|           0
   l_module_0_CLKOUT1_BUF"         TS_clock_ |             |            |            |        |            
   generator_0_clock_generator_0_SIG_PLL0_CL |             |            |            |        |            
   KOUT3 HIGH 50%                            |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_clock_generator_0_clock_generator_0_SI | SETUP       |    34.590ns|     7.076ns|       0|           0
-  G_PLL0_CLKOUT4 = PERIOD TIMEGRP         " | HOLD        |     0.266ns|            |       0|           0
+  TS_clock_generator_0_clock_generator_0_SI | SETUP       |    35.656ns|     6.010ns|       0|           0
+  G_PLL0_CLKOUT4 = PERIOD TIMEGRP         " | HOLD        |     0.307ns|            |       0|           0
   clock_generator_0_clock_generator_0_SIG_P |             |            |            |        |            
   LL0_CLKOUT4" TS_sys_clk_pin         * 0.2 |             |            |            |        |            
   4 HIGH 50%                                |             |            |            |        |            
@@ -507,19 +521,19 @@ Asterisk (*) preceding a constraint indicates it was not met.
   LL0_CLKOUT5" TS_sys_clk_pin         * 0.2 |             |            |            |        |            
   4 PHASE 20.8333333 ns HIGH 50%            |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_TIG_microblaze_0_ilmb_POR_FF_I_p | SETUP       |         N/A|     1.662ns|     N/A|           0
+  PATH "TS_TIG_microblaze_0_ilmb_POR_FF_I_p | SETUP       |         N/A|     2.259ns|     N/A|           0
   ath" TIG                                  |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_TIG_microblaze_0_dlmb_POR_FF_I_p | SETUP       |         N/A|     1.860ns|     N/A|           0
+  PATH "TS_TIG_microblaze_0_dlmb_POR_FF_I_p | SETUP       |         N/A|     1.914ns|     N/A|           0
   ath" TIG                                  |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_TIG_MCB_DDR2_SYS_RST_SYNCH_path" | SETUP       |         N/A|     3.173ns|     N/A|           0
+  PATH "TS_TIG_MCB_DDR2_SYS_RST_SYNCH_path" | SETUP       |         N/A|     2.151ns|     N/A|           0
    TIG                                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   PATH "TS_TIG_MCB_DDR2_CALIB_DONE_SYNCH_pa | N/A         |         N/A|         N/A|     N/A|         N/A
   th" TIG                                   |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_axi4lite_0_reset_resync_path" TI | MAXDELAY    |         N/A|     4.942ns|     N/A|           0
+  PATH "TS_axi4lite_0_reset_resync_path" TI | MAXDELAY    |         N/A|     4.930ns|     N/A|           0
   G                                         |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   TS_pll_module_0_CLKOUT0 = PERIOD TIMEGRP  | N/A         |         N/A|         N/A|     N/A|         N/A
@@ -527,9 +541,9 @@ Asterisk (*) preceding a constraint indicates it was not met.
   enerator_0_clock_generator_0_SIG_PLL0_CLK |             |            |            |        |            
   OUT3 * 10 HIGH 50%                        |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_axi4_0_reset_resync_path" TIG    | MAXDELAY    |         N/A|     4.971ns|     N/A|           0
+  PATH "TS_axi4_0_reset_resync_path" TIG    | MAXDELAY    |         N/A|     4.973ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_TIG_microblaze_0_Reset_path" TIG | SETUP       |         N/A|     4.023ns|     N/A|           0
+  PATH "TS_TIG_microblaze_0_Reset_path" TIG | SETUP       |         N/A|     3.070ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -543,22 +557,22 @@ Derived Constraints for TS_sys_clk_pin
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_sys_clk_pin                 |     10.000ns|      3.334ns|      9.972ns|            0|            0|            0|       789160|
-| TS_clock_generator_0_clock_gen|     40.000ns|     29.668ns|     15.896ns|            0|            0|        39993|         8568|
+|TS_sys_clk_pin                 |     10.000ns|      3.334ns|      9.968ns|            0|            0|            0|       801016|
+| TS_clock_generator_0_clock_gen|     40.000ns|     30.092ns|     11.210ns|            0|            0|        40011|         8568|
 | erator_0_SIG_PLL0_CLKOUT3     |             |             |             |             |             |             |             |
-|  TS_pll_module_0_pll_module_0_|     40.000ns|     15.896ns|          N/A|            0|            0|         8299|            0|
+|  TS_pll_module_0_pll_module_0_|     40.000ns|     11.210ns|          N/A|            0|            0|         8299|            0|
 |  CLKOUT1_BUF                  |             |             |             |             |             |             |             |
 |  TS_pll_module_0_CLKOUT0      |      4.000ns|          N/A|          N/A|            0|            0|            0|            0|
-|  TS_pll_module_0_pll_module_0_|     20.000ns|      6.501ns|          N/A|            0|            0|          269|            0|
+|  TS_pll_module_0_pll_module_0_|     20.000ns|      4.956ns|          N/A|            0|            0|          269|            0|
 |  CLKOUT2_BUF                  |             |             |             |             |             |             |             |
 | TS_clk_600_0000MHz180PLL0_nobu|      1.667ns|      1.499ns|          N/A|            0|            0|            0|            0|
 | f                             |             |             |             |             |             |             |             |
 | TS_clock_generator_0_clock_gen|     41.667ns|      1.730ns|          N/A|            0|            0|            0|            0|
 | erator_0_SIG_PLL0_CLKOUT5     |             |             |             |             |             |             |             |
 | TS_clk_600_0000MHzPLL0_nobuf  |      1.667ns|      1.499ns|          N/A|            0|            0|            0|            0|
-| TS_clock_generator_0_clock_gen|     41.667ns|      7.076ns|          N/A|            0|            0|         6084|            0|
+| TS_clock_generator_0_clock_gen|     41.667ns|      6.010ns|          N/A|            0|            0|         6084|            0|
 | erator_0_SIG_PLL0_CLKOUT4     |             |             |             |             |             |             |             |
-| TS_clock_generator_0_clock_gen|     10.000ns|      9.972ns|          N/A|            0|            0|       734515|            0|
+| TS_clock_generator_0_clock_gen|     10.000ns|      9.968ns|          N/A|            0|            0|       746353|            0|
 | erator_0_SIG_PLL0_CLKOUT2     |             |             |             |             |             |             |             |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
@@ -574,19 +588,19 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-WARNING:Par:283 - There are 62 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+WARNING:Par:283 - There are 68 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 3 mins 52 secs 
-Total CPU time to PAR completion: 3 mins 23 secs 
+Total REAL time to PAR completion: 3 mins 21 secs 
+Total CPU time to PAR completion: 3 mins 4 secs 
 
-Peak Memory Usage:  678 MB
+Peak Memory Usage:  666 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
 Timing: Completed - No errors found.
 
 Number of error messages: 0
-Number of warning messages: 66
+Number of warning messages: 71
 Number of info messages: 1
 
 Writing design to file system.ncd

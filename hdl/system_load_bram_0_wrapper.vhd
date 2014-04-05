@@ -14,6 +14,8 @@ entity system_load_bram_0_wrapper is
   port (
     load_bram_dout : out std_logic_vector(31 downto 0);
     load_bram_wr_en_fifo : out std_logic;
+    SW_I : in std_logic_vector(4 downto 0);
+    LED_O : out std_logic_vector(7 downto 0);
     S_AXI_ACLK : in std_logic;
     S_AXI_ARESETN : in std_logic;
     S_AXI_AWADDR : in std_logic_vector(31 downto 0);
@@ -101,11 +103,14 @@ architecture STRUCTURE of system_load_bram_0_wrapper is
       END_ADDR_REF : std_logic_vector;
       START_ADDR_SEARCH : std_logic_vector;
       END_ADDR_SEARCH : std_logic_vector;
-      BRAM_ADDR_WIDTH : INTEGER
+      BRAM_ADDR_WIDTH : INTEGER;
+      BURST : INTEGER
     );
     port (
       load_bram_dout : out std_logic_vector(31 downto 0);
       load_bram_wr_en_fifo : out std_logic;
+      SW_I : in std_logic_vector(4 downto 0);
+      LED_O : out std_logic_vector(7 downto 0);
       S_AXI_ACLK : in std_logic;
       S_AXI_ARESETN : in std_logic;
       S_AXI_AWADDR : in std_logic_vector((C_S_AXI_ADDR_WIDTH-1) downto 0);
@@ -190,14 +195,17 @@ begin
       C_LENGTH_WIDTH => 12,
       C_ADDR_PIPE_DEPTH => 1,
       START_ADDR_REF => X"a0000000",
-      END_ADDR_REF => X"A0095F80",
+      END_ADDR_REF => X"A0095FC0",
       START_ADDR_SEARCH => X"A0100000",
-      END_ADDR_SEARCH => X"A0195F80",
-      BRAM_ADDR_WIDTH => 13
+      END_ADDR_SEARCH => X"A0195FC0",
+      BRAM_ADDR_WIDTH => 13,
+      BURST => 128
     )
     port map (
       load_bram_dout => load_bram_dout,
       load_bram_wr_en_fifo => load_bram_wr_en_fifo,
+      SW_I => SW_I,
+      LED_O => LED_O,
       S_AXI_ACLK => S_AXI_ACLK,
       S_AXI_ARESETN => S_AXI_ARESETN,
       S_AXI_AWADDR => S_AXI_AWADDR,

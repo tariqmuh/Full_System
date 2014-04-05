@@ -1,10 +1,10 @@
 Release 14.2 - xst P.28xd (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:\Users\tariqmuh\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to C:\Users\DSD\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.41 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
  
 --> 
 TABLE OF CONTENTS
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_proc_sys_reset_0_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\Users\tariqmuh\Documents\GitHub\Full_System\pcores\" "C:\Users\tariqmuh\Documents\GitHub\320x240\pcores\" "C:\Users\tariqmuh\Documents\GitHub\Vmod_in_HDMI\pcores\" "C:\Users\tariqmuh\Documents\GitHub\Vmod_in_HDMI_100MHz\pcores\" "C:\Xilinx\14.2\ISE_DS\edk_user_repository\MyProcessorIPLib\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\Users\DSD\Documents\GitHub\Full_System\pcores\" "C:\Users\DSD\Documents\GitHub\disp_map_gen\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc6slx45csg324-3
@@ -74,7 +74,7 @@ Parsing architecture <imp> of entity <sequence>.
 Parsing VHDL file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_sys_reset_v3_00_a/hdl/vhdl/proc_sys_reset.vhd" into library proc_sys_reset_v3_00_a
 Parsing entity <proc_sys_reset>.
 Parsing architecture <imp> of entity <proc_sys_reset>.
-Parsing VHDL file "C:\Users\tariqmuh\Documents\GitHub\Full_System\hdl\system_proc_sys_reset_0_wrapper.vhd" into library work
+Parsing VHDL file "C:\Users\DSD\Documents\GitHub\Full_System\hdl\system_proc_sys_reset_0_wrapper.vhd" into library work
 Parsing entity <system_proc_sys_reset_0_wrapper>.
 Parsing architecture <STRUCTURE> of entity <system_proc_sys_reset_0_wrapper>.
 
@@ -100,7 +100,7 @@ Elaborating entity <upcnt_n> (architecture <imp>) with generics from library <pr
 =========================================================================
 
 Synthesizing Unit <system_proc_sys_reset_0_wrapper>.
-    Related source file is "C:\Users\tariqmuh\Documents\GitHub\Full_System\hdl\system_proc_sys_reset_0_wrapper.vhd".
+    Related source file is "C:\Users\DSD\Documents\GitHub\Full_System\hdl\system_proc_sys_reset_0_wrapper.vhd".
     Summary:
 	no macro.
 Unit <system_proc_sys_reset_0_wrapper> synthesized.
@@ -475,12 +475,12 @@ Slowest_sync_clk|    2.646|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 15.00 secs
-Total CPU time to Xst completion: 14.75 secs
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.49 secs
  
 --> 
 
-Total memory usage is 268868 kilobytes
+Total memory usage is 271680 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    1 (   0 filtered)

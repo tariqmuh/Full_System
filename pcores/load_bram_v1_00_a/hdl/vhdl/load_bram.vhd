@@ -188,11 +188,12 @@ entity load_bram is
     C_NATIVE_DATA_WIDTH            : integer              := 32;
     C_LENGTH_WIDTH                 : integer              := 12;
     C_ADDR_PIPE_DEPTH              : integer              := 1;
-	 START_ADDR_REF				   : std_logic_vector	  := X"A0000000";
-	 END_ADDR_REF				   : std_logic_vector	 := X"A0095F80";
-	 START_ADDR_SEARCH			   : std_logic_vector	 := X"A0100000";
-	 END_ADDR_SEARCH			   : std_logic_vector	 := X"A0195F80";
-	 BRAM_ADDR_WIDTH				: integer					 := 13
+	 START_ADDR_REF							  : std_logic_vector					 := X"A0000000";
+	 END_ADDR_REF							  : std_logic_vector					 := X"A03A97C0";
+	 START_ADDR_SEARCH							  : std_logic_vector					 := X"A8000000";
+	 END_ADDR_SEARCH							  : std_logic_vector					 := X"A83A97C0";
+	 BURST									: integer									:= 128;
+	 BRAM_ADDR_WIDTH					  : integer					 := 13
     -- DO NOT EDIT ABOVE THIS LINE ---------------------
   );
   port
@@ -200,6 +201,8 @@ entity load_bram is
     -- ADD USER PORTS BELOW THIS LINE ------------------
     load_bram_dout						: out std_logic_vector(31 downto 0);
 	 load_bram_wr_en_fifo				: out std_logic;
+	 LED_O									: out std_logic_vector(7 downto 0);
+	 SW_I										: in std_logic_vector(4 downto 0);
     -- ADD USER PORTS ABOVE THIS LINE ------------------
 
     -- DO NOT EDIT BELOW THIS LINE ---------------------
@@ -387,6 +390,7 @@ architecture IMP of load_bram is
   signal user_IP2Bus_RdAck              : std_logic;
   signal user_IP2Bus_WrAck              : std_logic;
   signal user_IP2Bus_Error              : std_logic;
+  signal load_bram_en						 : std_logic;
 
 begin
 
@@ -520,6 +524,8 @@ begin
       bus2ip_mstwr_dst_dsc_n         => ipif_bus2ip_mstwr_dst_dsc_n
     );
 
+	load_bram_en <= SW_I(4);
+
   ------------------------------------------
   -- instantiate User Logic
   ------------------------------------------
@@ -533,6 +539,7 @@ begin
 			HRES						=>	HRES,
 			BRAM_DATA_WIDTH		=>	BRAM_DATA_WIDTH,
 			BRAM_WE_WIDTH			=>	BRAM_WE_WIDTH,
+			BURST 					=> BURST,
 			
 			--// 640*480 frame with 3x3 window - 1.6sec/frame
 			--// 640*480 frame with 7x7 window - 8.5sec/frame
@@ -555,6 +562,10 @@ begin
       -- MAP USER PORTS BELOW THIS LINE ------------------
       load_bram_dout						=> load_bram_dout,
 		load_bram_wr_en_fifo				=> load_bram_wr_en_fifo,
+		load_bram_en						=> load_bram_en,
+		LED_O									=> LED_O,
+		SW_I									=> SW_I,
+		
       -- MAP USER PORTS ABOVE THIS LINE ------------------
 
       Bus2IP_Clk                     => ipif_Bus2IP_Clk,
