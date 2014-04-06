@@ -14,6 +14,7 @@ entity system_vmodcam_0_wrapper is
   port (
     SW_I : in std_logic_vector(7 downto 0);
     LED_O : out std_logic_vector(7 downto 0);
+    ENABLE : in std_logic;
     RESET_I : in std_logic;
     CamClk : in std_logic;
     CamClk_180 : in std_logic;
@@ -118,6 +119,7 @@ architecture STRUCTURE of system_vmodcam_0_wrapper is
     port (
       SW_I : in std_logic_vector(7 downto 0);
       LED_O : out std_logic_vector(7 downto 0);
+      ENABLE : in std_logic;
       RESET_I : in std_logic;
       CamClk : in std_logic;
       CamClk_180 : in std_logic;
@@ -222,6 +224,7 @@ begin
     port map (
       SW_I => SW_I,
       LED_O => LED_O,
+      ENABLE => ENABLE,
       RESET_I => RESET_I,
       CamClk => CamClk,
       CamClk_180 => CamClk_180,

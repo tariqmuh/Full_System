@@ -1,7 +1,7 @@
-INFILE=C:\Users\DSD\Documents\GitHub\Full_System\implementation\system.ncd
-OUTFILE=C:\Users\DSD\Documents\GitHub\Full_System\implementation\system.bit
+INFILE=C:\Users\Admin\Documents\GitHub\Full_System\implementation\system.ncd
+OUTFILE=C:\Users\Admin\Documents\GitHub\Full_System\implementation\system.bit
 FAMILY=Spartan6
 PART=xc6slx45-3csg324
-WORKINGDIR=C:\Users\DSD\Documents\GitHub\Full_System\implementation
+WORKINGDIR=C:\Users\Admin\Documents\GitHub\Full_System\implementation
 LICENSE=ISE
 USER_INFO=174112640_174112641_177140320_866

@@ -198,7 +198,7 @@ vhdl axi_master_burst_v1_00_a C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\
 vhdl axi_master_burst_v1_00_a C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_master_burst_v1_00_a/hdl/vhdl/axi_master_burst_rd_llink.vhd
 vhdl axi_master_burst_v1_00_a C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_master_burst_v1_00_a/hdl/vhdl/axi_master_burst_wr_llink.vhd
 vhdl axi_master_burst_v1_00_a C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\axi_master_burst_v1_00_a/hdl/vhdl/axi_master_burst.vhd
-vhdl disparity_out_v1_00_a C:\Users\DSD\Documents\GitHub\Full_System\pcores\disparity_out_v1_00_a/hdl/vhdl/user_logic.vhd
-vhdl disparity_out_v1_00_a C:\Users\DSD\Documents\GitHub\Full_System\pcores\disparity_out_v1_00_a/hdl/vhdl/disparity_out.vhd
-vhdl disparity_out_v1_00_a C:\Users\DSD\Documents\GitHub\Full_System\pcores\disparity_out_v1_00_a/hdl/vhdl/async_fifo_32_256.vhd
+vhdl disparity_out_v1_00_a C:\Users\Admin\Documents\GitHub\Full_System\pcores\disparity_out_v1_00_a/hdl/vhdl/user_logic.vhd
+vhdl disparity_out_v1_00_a C:\Users\Admin\Documents\GitHub\Full_System\pcores\disparity_out_v1_00_a/hdl/vhdl/disparity_out.vhd
+vhdl disparity_out_v1_00_a C:\Users\Admin\Documents\GitHub\Full_System\pcores\disparity_out_v1_00_a/hdl/vhdl/async_fifo_32_256.vhd
 vhdl work ../hdl/system_disparity_out_0_wrapper.vhd

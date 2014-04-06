@@ -1,9 +1,9 @@
 Release 14.2 - xst P.28xd (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:\Users\DSD\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to C:\Users\Admin\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 0.00 secs
+Total REAL time to Xst completion: 1.00 secs
 Total CPU time to Xst completion: 0.32 secs
  
 --> 
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_hdmi_out_0_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\Users\DSD\Documents\GitHub\Full_System\pcores\" "C:\Users\DSD\Documents\GitHub\disp_map_gen\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\Users\Admin\Documents\GitHub\Full_System\pcores\" "C:\Users\Admin\Documents\GitHub\2010_09_10_Interrupt_Test\pcores\" "C:\Users\Admin\Documents\GitHub\Full_System_Mult_Buses\pcores\" "C:\Users\Admin\Documents\GitHub\Full_System_VMOD_Switch\pcores\" "C:\Users\Admin\Documents\GitHub\Test_Intr\pcores\" "C:\Users\Admin\Documents\GitHub\Vmod_in_HDMI_100MHz\pcores\" "C:\Xilinx\14.2\ISE_DS\edk_user_repository\MyProcessorIPLib\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc6slx45csg324-3
@@ -62,28 +62,28 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" into library hdmi_out_v1_00_a
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" into library hdmi_out_v1_00_a
 Parsing module <user_logic>.
-WARNING:HDLCompiler:991 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" Line 603: Event expressions must result in a singular type
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/convert_30to15_fifo.v" into library hdmi_out_v1_00_a
+WARNING:HDLCompiler:991 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" Line 603: Event expressions must result in a singular type
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/convert_30to15_fifo.v" into library hdmi_out_v1_00_a
 Parsing module <convert_30to15_fifo>.
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/DRAM16XN.v" into library hdmi_out_v1_00_a
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/DRAM16XN.v" into library hdmi_out_v1_00_a
 Parsing module <DRAM16XN>.
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/dvi_encoder.v" into library hdmi_out_v1_00_a
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/dvi_encoder.v" into library hdmi_out_v1_00_a
 Parsing module <dvi_encoder>.
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/dvi_out_native.v" into library hdmi_out_v1_00_a
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/dvi_out_native.v" into library hdmi_out_v1_00_a
 Parsing module <dvi_out_native>.
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/encode.v" into library hdmi_out_v1_00_a
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/encode.v" into library hdmi_out_v1_00_a
 Parsing module <encode>.
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/serdes_n_to_1.v" into library hdmi_out_v1_00_a
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/serdes_n_to_1.v" into library hdmi_out_v1_00_a
 Parsing module <serdes_n_to_1>.
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" into library hdmi_out_v1_00_a
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" into library hdmi_out_v1_00_a
 Parsing module <hdmi_core>.
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/fill_fifo_fsm.v" into library hdmi_out_v1_00_a
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/fill_fifo_fsm.v" into library hdmi_out_v1_00_a
 Parsing module <fill_fifo_fsm>.
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/pulse_gen.v" into library hdmi_out_v1_00_a
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/pulse_gen.v" into library hdmi_out_v1_00_a
 Parsing module <pulse_gen>.
-Analyzing Verilog file "C:\Users\DSD\Documents\GitHub\Full_System\hdl\system_hdmi_out_0_wrapper.v" into library work
+Analyzing Verilog file "C:\Users\Admin\Documents\GitHub\Full_System\hdl\system_hdmi_out_0_wrapper.v" into library work
 Parsing module <system_hdmi_out_0_wrapper>.
 Parsing VHDL file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family.vhd" into library proc_common_v3_00_a
 Parsing package <family>.
@@ -688,7 +688,7 @@ Parsing architecture <implementation> of entity <axi_master_burst_wr_llink>.
 Parsing VHDL file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_master_burst_v1_00_a/hdl/vhdl/axi_master_burst.vhd" into library axi_master_burst_v1_00_a
 Parsing entity <axi_master_burst>.
 Parsing architecture <implementation> of entity <axi_master_burst>.
-Parsing VHDL file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/vhdl/hdmi_out.vhd" into library hdmi_out_v1_00_a
+Parsing VHDL file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/vhdl/hdmi_out.vhd" into library hdmi_out_v1_00_a
 Parsing entity <hdmi_out>.
 Parsing architecture <IMP> of entity <hdmi_out>.
 
@@ -799,16 +799,16 @@ Going to verilog side to elaborate module user_logic
 Elaborating module <user_logic(HDMI_HRES=640,HDMI_BYTES_PER_PIXEL=2,C_MST_NATIVE_DATA_WIDTH=32,C_LENGTH_WIDTH=13,C_MST_AWIDTH=32,C_NUM_REG=7,C_SLV_DWIDTH=32,LLRD_IDLE=0,LLRD_GO=1,GO_BYTE_LANE=15)>.
 
 Elaborating module <fill_fifo_fsm(NUM_BYTES_PER_PIXEL=2)>.
-WARNING:HDLCompiler:189 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" Line 341: Size mismatch in connection of port <LINE_STRIDE>. Formal port size is 32-bit while actual signal size is 20-bit.
+WARNING:HDLCompiler:189 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" Line 341: Size mismatch in connection of port <LINE_STRIDE>. Formal port size is 32-bit while actual signal size is 20-bit.
 
 Elaborating module <hdmi_core(NUM_BYTES_PER_PIXEL=2,HRES=640)>.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" Line 49: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" Line 50: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" Line 49: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" Line 50: Result of 32-bit expression is truncated to fit in 1-bit target.
 
 Elaborating module <pulse_gen(NUM=3)>.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" Line 162: Result of 17-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" Line 167: Result of 17-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:1127 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" Line 361: Assignment to read_next_chunk ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" Line 162: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" Line 167: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:1127 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" Line 361: Assignment to read_next_chunk ignored, since the identifier is never used
 
 Elaborating module <dvi_out_native>.
 
@@ -853,7 +853,7 @@ Elaborating entity <cntr_incr_decr_addn_f> (architecture <imp>) with generics fr
 
 Elaborating entity <dynshreg_f> (architecture <behavioral>) with generics from library <proc_common_v3_00_a>.
 Back to verilog to continue elaboration
-WARNING:HDLCompiler:634 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" Line 200: Net <half_full_fifo> does not have a driver.
+WARNING:HDLCompiler:634 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" Line 200: Net <half_full_fifo> does not have a driver.
 Back to vhdl to continue elaboration
 Back to verilog to continue elaboration
 
@@ -862,13 +862,13 @@ Back to verilog to continue elaboration
 =========================================================================
 
 Synthesizing Unit <system_hdmi_out_0_wrapper>.
-    Related source file is "C:\Users\DSD\Documents\GitHub\Full_System\hdl\system_hdmi_out_0_wrapper.v".
+    Related source file is "C:\Users\Admin\Documents\GitHub\Full_System\hdl\system_hdmi_out_0_wrapper.v".
     Summary:
 	no macro.
 Unit <system_hdmi_out_0_wrapper> synthesized.
 
 Synthesizing Unit <hdmi_out>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/vhdl/hdmi_out.vhd".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/vhdl/hdmi_out.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
@@ -901,9 +901,9 @@ WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/p
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
     Set property "MAX_FANOUT = 10000" for signal <m_axi_aresetn>.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/vhdl/hdmi_out.vhd" line 485: Output port <Bus2IP_Addr> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/vhdl/hdmi_out.vhd" line 485: Output port <Bus2IP_RNW> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/vhdl/hdmi_out.vhd" line 615: Output port <Reset2Bus_ToutSup> of the instance <SOFT_RESET_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/vhdl/hdmi_out.vhd" line 485: Output port <Bus2IP_Addr> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/vhdl/hdmi_out.vhd" line 485: Output port <Bus2IP_RNW> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/vhdl/hdmi_out.vhd" line 615: Output port <Reset2Bus_ToutSup> of the instance <SOFT_RESET_I> is unconnected or connected to loadless signal.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <hdmi_out> synthesized.
@@ -1774,7 +1774,7 @@ WARNING:Xst:647 - Input <Bus2IP_BE<0:2>> is never used. This port will be preser
 Unit <soft_reset> synthesized.
 
 Synthesizing Unit <user_logic>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v".
         HDMI_HRES = 640
         HDMI_BYTES_PER_PIXEL = 2
         C_MST_NATIVE_DATA_WIDTH = 32
@@ -1802,10 +1802,10 @@ WARNING:Xst:647 - Input <bus2ip_mstrd_rem> is never used. This port will be pres
 WARNING:Xst:647 - Input <bus2ip_mst_rearbitrate> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <bus2ip_mstrd_sof_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <bus2ip_mstrd_src_dsc_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" line 348: Output port <read_next_chunk> of the instance <hdmi_core_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" line 1006: Output port <Addr> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" line 1006: Output port <FIFO_Empty> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" line 1006: Output port <FIFO_Full> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" line 348: Output port <read_next_chunk> of the instance <hdmi_core_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" line 1006: Output port <Addr> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" line 1006: Output port <FIFO_Empty> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/user_logic.v" line 1006: Output port <FIFO_Full> of the instance <DATA_CAPTURE_FIFO_I> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <half_full_fifo> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Register <mst_cmd_sm_xfer_type> equivalent to <mst_cmd_sm_rd_req> has been removed
     Found 1-bit register for signal <slv_reg0<30>>.
@@ -2069,7 +2069,7 @@ WARNING:Xst:653 - Signal <half_full_fifo> is used but never assigned. This sourc
 Unit <user_logic> synthesized.
 
 Synthesizing Unit <fill_fifo_fsm>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/fill_fifo_fsm.v".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/fill_fifo_fsm.v".
         NUM_BYTES_PER_PIXEL = 2
         RESET_fill_fifo = 3'b000
         BEGIN_fill_fifo = 3'b001
@@ -2096,11 +2096,11 @@ WARNING:Xst:647 - Input <LINE_STRIDE<31:31>> is never used. This port will be pr
 Unit <fill_fifo_fsm> synthesized.
 
 Synthesizing Unit <hdmi_core>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v".
         NUM_BYTES_PER_PIXEL = 2
         HRES = 640
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" line 76: Output port <toggle_O> of the instance <pulse_gen_inst> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" line 76: Output port <posedge_O> of the instance <pulse_gen_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" line 76: Output port <toggle_O> of the instance <pulse_gen_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/hdmi_core.v" line 76: Output port <posedge_O> of the instance <pulse_gen_inst> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <hsync_d2>.
     Found 1-bit register for signal <vsync_d2>.
     Found 1-bit register for signal <hsync_d1>.
@@ -2171,7 +2171,7 @@ INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00
 Unit <hdmi_core> synthesized.
 
 Synthesizing Unit <pulse_gen>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/pulse_gen.v".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/pulse_gen.v".
         NUM = 3
     Found 3-bit register for signal <toggle_O>.
     Found 3-bit register for signal <posedge_O>.
@@ -2182,7 +2182,7 @@ Synthesizing Unit <pulse_gen>.
 Unit <pulse_gen> synthesized.
 
 Synthesizing Unit <dvi_out_native>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/dvi_out_native.v".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/dvi_out_native.v".
     Found 1-bit register for signal <toggle>.
     Found 5-bit register for signal <tmdsclkint>.
     Summary:
@@ -2190,13 +2190,13 @@ Synthesizing Unit <dvi_out_native>.
 Unit <dvi_out_native> synthesized.
 
 Synthesizing Unit <dvi_encoder>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/dvi_encoder.v".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/dvi_encoder.v".
     Summary:
 	no macro.
 Unit <dvi_encoder> synthesized.
 
 Synthesizing Unit <encode>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/encode.v".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/encode.v".
         CTRLTOKEN0 = 10'b1101010100
         CTRLTOKEN1 = 10'b0010101011
         CTRLTOKEN2 = 10'b0101010100
@@ -2251,7 +2251,7 @@ Synthesizing Unit <encode>.
 Unit <encode> synthesized.
 
 Synthesizing Unit <convert_30to15_fifo>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/convert_30to15_fifo.v".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/convert_30to15_fifo.v".
         ADDR0 = 4'b0000
         ADDR1 = 4'b0001
         ADDR2 = 4'b0010
@@ -2269,7 +2269,7 @@ Synthesizing Unit <convert_30to15_fifo>.
         ADDR14 = 4'b1110
         ADDR15 = 4'b1111
     Set property "ASYNC_REG = TRUE" for instance <fdp_rst>.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/convert_30to15_fifo.v" line 64: Output port <O_DATA_OUT> of the instance <fifo_u> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/convert_30to15_fifo.v" line 64: Output port <O_DATA_OUT> of the instance <fifo_u> is unconnected or connected to loadless signal.
     Found 16x4-bit Read Only RAM for signal <wa_d>
     Found 16x4-bit Read Only RAM for signal <ra_d>
     Summary:
@@ -2278,14 +2278,14 @@ INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00
 Unit <convert_30to15_fifo> synthesized.
 
 Synthesizing Unit <DRAM16XN>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/DRAM16XN.v".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/DRAM16XN.v".
         data_width = 30
     Summary:
 	no macro.
 Unit <DRAM16XN> synthesized.
 
 Synthesizing Unit <serdes_n_to_1>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/serdes_n_to_1.v".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/hdmi_out_v1_00_a/hdl/verilog/serdes_n_to_1.v".
         SF = 5
     Summary:
 	no macro.
@@ -4217,12 +4217,12 @@ m_axi_aclk     |    6.507|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 72.00 secs
-Total CPU time to Xst completion: 71.58 secs
+Total REAL time to Xst completion: 82.00 secs
+Total CPU time to Xst completion: 81.60 secs
  
 --> 
 
-Total memory usage is 390016 kilobytes
+Total memory usage is 387780 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  508 (   0 filtered)

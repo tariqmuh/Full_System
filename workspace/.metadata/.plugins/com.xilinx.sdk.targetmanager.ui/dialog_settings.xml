@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\Users\Admin\Documents\GitHub\Full_System\workspace\full_sys_0\Debug\full_sys_0.elf" key="Full_System_hw_platform-microblaze_0-initElf"/>
+	<item value="C:\Users\Admin\Documents\GitHub\Full_System\workspace\Full_System_hw_platform\system_bd.bmm" key="Full_System_hw_platform-bmmFile"/>
+	<item value="C:\Users\Admin\Documents\GitHub\Full_System\workspace\Full_System_hw_platform\system.bit" key="Full_System_hw_platform-bitFile"/>
+</section>

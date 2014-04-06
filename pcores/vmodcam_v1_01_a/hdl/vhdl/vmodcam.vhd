@@ -187,6 +187,7 @@ entity vmodcam is
     --USER ports added here
 	  --USER ports added here
 		SW_I : in STD_LOGIC_VECTOR(7 downto 0);
+		ENABLE : in STD_LOGIC;
 		LED_O : out STD_LOGIC_VECTOR(7 downto 0);
 		RESET_I : in  STD_LOGIC;
 		
@@ -424,6 +425,8 @@ architecture IMP of vmodcam is
   signal user_IP2Bus_WrAck              : std_logic;
   signal user_IP2Bus_Error              : std_logic;
 
+  signal external_reset_user_logic		: std_logic;
+  
 begin
 
   ------------------------------------------
@@ -578,6 +581,8 @@ begin
       Reset2Bus_ToutSup              => open
     );
 
+	
+	external_reset_user_logic <= RESET_I and ENABLE;
   ------------------------------------------
   -- instantiate User Logic
   ------------------------------------------
@@ -602,7 +607,7 @@ begin
       --USER ports mapped here
 		SW_I => SW_I,
 		LED_O => LED_O,
-		RESET_I => RESET_I,
+		RESET_I => external_reset_user_logic,
 		
 		CamClk => CamClk,
 

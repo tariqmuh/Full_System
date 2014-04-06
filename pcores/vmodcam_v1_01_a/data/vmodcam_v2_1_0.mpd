@@ -47,6 +47,7 @@ PARAMETER C_M_AXI_PROTOCOL = AXI4, TYPE = NON_HDL, ASSIGNMENT = CONSTANT, DT = S
 ## Ports
 PORT SW_I = "", DIR = I, VEC = [7:0]
 PORT LED_O = "", DIR = O, VEC = [7:0]
+PORT ENABLE = "", DIR = I
 PORT RESET_I = "", DIR = I
 PORT CamClk = "", DIR = I
 PORT CamClk_180 = "", DIR = I

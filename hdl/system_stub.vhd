@@ -53,7 +53,8 @@ entity system_stub is
     CAMA_SDA : inout std_logic;
     CAMA_MCLK_O : out std_logic;
     LED_O : out std_logic_vector(7 downto 0);
-    SW_I : in std_logic_vector(4 downto 0)
+    SW_I : in std_logic_vector(4 downto 0);
+    vmodcam_0_ENABLE_pin : in std_logic
   );
 end system_stub;
 
@@ -105,7 +106,8 @@ architecture STRUCTURE of system_stub is
       CAMA_SDA : inout std_logic;
       CAMA_MCLK_O : out std_logic;
       LED_O : out std_logic_vector(7 downto 0);
-      SW_I : in std_logic_vector(4 downto 0)
+      SW_I : in std_logic_vector(4 downto 0);
+      vmodcam_0_ENABLE_pin : in std_logic
     );
   end component;
 
@@ -160,7 +162,8 @@ begin
       CAMA_SDA => CAMA_SDA,
       CAMA_MCLK_O => CAMA_MCLK_O,
       LED_O => LED_O,
-      SW_I => SW_I
+      SW_I => SW_I,
+      vmodcam_0_ENABLE_pin => vmodcam_0_ENABLE_pin
     );
 
 end architecture STRUCTURE;

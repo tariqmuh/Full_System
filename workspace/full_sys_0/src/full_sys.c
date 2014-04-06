@@ -123,10 +123,18 @@ int main() {
 //
 //
 
+	for (i = 0; i < (640*480); i++) {
+		ddr_addr2[i] = 0xFFFFFFFF;
+	}
 	while(1) {
-//		for (i = 0; i < (640*480); i++) {
-//			printf("0x%X ", ddr_addr2[i]);
-//		}
+		hdmi_addr[1] = (int)ddr_addr;
+		for (i = 0; i < 0xFFFFFF; i++){}
+		hdmi_addr[1] = (int)0xA0100000;
+		for (i = 0; i < 0xFFFFFF; i++){}
+		hdmi_addr[1] = (int)ddr_addr2;
+		for (i = 0; i < 0xFFFFFF; i++){}
+		for (i = 0; i < 0xFFFFFF; i++){}
+		for (i = 0; i < 0xFFFFFF; i++){}
 	}
 	printf("Exiting\n\r");
 

@@ -9,34 +9,39 @@
       <VARIABLE COL_INDEX="1" COL_WIDTH="157" IS_VISIBLE="TRUE" VIEWDISP="Bus Name" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="2" IS_VISIBLE="FALSE" VIEWDISP="Bus Standard" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="3" COL_WIDTH="164" IS_VISIBLE="TRUE" VIEWDISP="IP Type" VIEWTYPE="HEADER"/>
-      <VARIABLE COL_INDEX="4" COL_WIDTH="166" IS_VISIBLE="TRUE" VIEWDISP="IP Version" VIEWTYPE="HEADER"/>
+      <VARIABLE COL_INDEX="4" COL_WIDTH="100" IS_VISIBLE="TRUE" VIEWDISP="IP Version" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="5" IS_VISIBLE="FALSE" VIEWDISP="IP Classification" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="6" IS_VISIBLE="FALSE" VIEWDISP="Type" VIEWTYPE="HEADER"/>
     </HEADERS>
-    <SPLITTERS COLLAPSIBLE="1" HANDLEWIDTH="4" MARKER="255" ORIENTATION="1" RESIZE="1" SIZES="220,869,200" VERSION="0"/>
+    <SPLITTERS COLLAPSIBLE="1" HANDLEWIDTH="4" MARKER="255" ORIENTATION="1" RESIZE="1" SIZES="220,783,200" VERSION="0"/>
+    <SET ID="vmodcam_0" IS_EXPANDED="TRUE"/>
+    <SET ID="hdmi_out_0" IS_EXPANDED="TRUE"/>
+    <SET ID="disparity_out_0" IS_EXPANDED="TRUE"/>
+    <SET ID="load_bram_0" IS_EXPANDED="TRUE"/>
     <STATUS>
       <SELECTIONS>
-        <VARIABLE ID="disparity_out_0"/>
+        <VARIABLE ID="load_bram_0"/>
       </SELECTIONS>
     </STATUS>
     <SEQUENCES IS_DEF_SEQUENCES="TRUE">
-      <VARIABLE ID="vmodcam_0" ROW_INDEX="13"/>
-      <VARIABLE ID="proc_sys_reset_0" ROW_INDEX="16"/>
-      <VARIABLE ID="pll_module_0" ROW_INDEX="15"/>
+      <VARIABLE ID="vmodcam_0" IS_EXPANDED="TRUE" ROW_INDEX="14"/>
+      <VARIABLE ID="proc_sys_reset_0" ROW_INDEX="17"/>
+      <VARIABLE ID="pll_module_0" ROW_INDEX="16"/>
       <VARIABLE ID="microblaze_0_ilmb" ROW_INDEX="3"/>
       <VARIABLE ID="microblaze_0_i_bram_ctrl" ROW_INDEX="7"/>
       <VARIABLE ID="microblaze_0_dlmb" ROW_INDEX="2"/>
       <VARIABLE ID="microblaze_0_d_bram_ctrl" ROW_INDEX="6"/>
       <VARIABLE ID="microblaze_0_bram_block" ROW_INDEX="5"/>
       <VARIABLE ID="microblaze_0" ROW_INDEX="4"/>
-      <VARIABLE ID="hdmi_out_0" ROW_INDEX="12"/>
+      <VARIABLE ID="hdmi_out_0" IS_EXPANDED="TRUE" ROW_INDEX="12"/>
+      <VARIABLE ID="disparity_out_0" IS_EXPANDED="TRUE" ROW_INDEX="11"/>
       <VARIABLE ID="debug_module" ROW_INDEX="9"/>
-      <VARIABLE ID="clock_generator_0" ROW_INDEX="14"/>
+      <VARIABLE ID="clock_generator_0" ROW_INDEX="15"/>
       <VARIABLE ID="axi4lite_0" ROW_INDEX="1"/>
       <VARIABLE ID="axi4_0" ROW_INDEX="0"/>
       <VARIABLE ID="RS232_Uart_1" ROW_INDEX="10"/>
       <VARIABLE ID="MCB_DDR2" ROW_INDEX="8"/>
-      <VARIABLE ID="disparity_out_0" ROW_INDEX="11"/>
+      <VARIABLE ID="load_bram_0" IS_EXPANDED="TRUE" ROW_INDEX="13"/>
     </SEQUENCES>
   </SET>
 
@@ -82,7 +87,7 @@
   </SET>
 
   <SET CLASS="PROJECT" DISPLAYMODE="TREE" VIEW_ID="PORT">
-    <HEADERS HSCROLL="0" VSCROLL="0">
+    <HEADERS HSCROLL="0" VSCROLL="1008">
       <VARIABLE COL_INDEX="0" COL_WIDTH="171" IS_VISIBLE="TRUE" VIEWDISP="Name" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="1" COL_WIDTH="274" IS_VISIBLE="TRUE" VIEWDISP="Connected Port" VIEWTYPE="HEADER"/>
       <VARIABLE COL_INDEX="2" COL_WIDTH="190" IS_VISIBLE="TRUE" VIEWDISP="Net" VIEWTYPE="HEADER"/>
@@ -98,17 +103,18 @@
       <VARIABLE COL_INDEX="11" COL_WIDTH="100" IS_VISIBLE="TRUE" VIEWDISP="Differential Polarity" VIEWTYPE="HEADER"/>
     </HEADERS>
     <SPLITTERS COLLAPSIBLE="1" HANDLEWIDTH="4" MARKER="255" ORIENTATION="1" RESIZE="1" SIZES="62,630,200" VERSION="0"/>
+    <SET ID="ExternalPorts" IS_EXPANDED="TRUE"/>
+    <SET ID="vmodcam_0" IS_EXPANDED="TRUE"/>
     <SET ID="disparity_out_0" IS_EXPANDED="TRUE"/>
+    <SET ID="load_bram_0" IS_EXPANDED="TRUE"/>
     <STATUS>
-      <SELECTIONS>
-        <VARIABLE ID="DISP_EN" PARENT="disparity_out_0"/>
-      </SELECTIONS>
+      <SELECTIONS/>
     </STATUS>
     <SEQUENCES IS_DEF_SEQUENCES="TRUE">
-      <VARIABLE ID="ExternalPorts" ROW_INDEX="0"/>
-      <VARIABLE ID="vmodcam_0" ROW_INDEX="14"/>
-      <VARIABLE ID="proc_sys_reset_0" ROW_INDEX="17"/>
-      <VARIABLE ID="pll_module_0" ROW_INDEX="16"/>
+      <VARIABLE ID="ExternalPorts" IS_EXPANDED="TRUE" ROW_INDEX="0"/>
+      <VARIABLE ID="vmodcam_0" IS_EXPANDED="TRUE" ROW_INDEX="15"/>
+      <VARIABLE ID="proc_sys_reset_0" ROW_INDEX="18"/>
+      <VARIABLE ID="pll_module_0" ROW_INDEX="17"/>
       <VARIABLE ID="microblaze_0_ilmb" ROW_INDEX="4"/>
       <VARIABLE ID="microblaze_0_i_bram_ctrl" ROW_INDEX="8"/>
       <VARIABLE ID="microblaze_0_dlmb" ROW_INDEX="3"/>
@@ -116,13 +122,14 @@
       <VARIABLE ID="microblaze_0_bram_block" ROW_INDEX="6"/>
       <VARIABLE ID="microblaze_0" ROW_INDEX="5"/>
       <VARIABLE ID="hdmi_out_0" ROW_INDEX="13"/>
+      <VARIABLE ID="disparity_out_0" IS_EXPANDED="TRUE" ROW_INDEX="12"/>
       <VARIABLE ID="debug_module" ROW_INDEX="10"/>
-      <VARIABLE ID="clock_generator_0" ROW_INDEX="15"/>
+      <VARIABLE ID="clock_generator_0" ROW_INDEX="16"/>
       <VARIABLE ID="axi4lite_0" ROW_INDEX="2"/>
       <VARIABLE ID="axi4_0" ROW_INDEX="1"/>
       <VARIABLE ID="RS232_Uart_1" ROW_INDEX="11"/>
       <VARIABLE ID="MCB_DDR2" ROW_INDEX="9"/>
-      <VARIABLE ID="disparity_out_0" IS_EXPANDED="TRUE" ROW_INDEX="12"/>
+      <VARIABLE ID="load_bram_0" IS_EXPANDED="TRUE" ROW_INDEX="14"/>
     </SEQUENCES>
   </SET>
 
@@ -201,7 +208,6 @@
     </SEQUENCES>
     <SPLITTERS COLLAPSIBLE="1" HANDLEWIDTH="4" MARKER="255" ORIENTATION="1" RESIZE="1" SIZES="69,927,200" VERSION="0"/>
     <SET ID="microblaze_0" IS_EXPANDED="TRUE"/>
-    <SET ID="Unmapped Addresses" IS_EXPANDED="TRUE"/>
     <STATUS>
       <SELECTIONS/>
     </STATUS>

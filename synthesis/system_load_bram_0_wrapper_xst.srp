@@ -1,10 +1,10 @@
 Release 14.2 - xst P.28xd (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:\Users\DSD\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to C:\Users\Admin\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.31 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.32 secs
  
 --> 
 TABLE OF CONTENTS
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "system_load_bram_0_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\Users\DSD\Documents\GitHub\Full_System\pcores\" "C:\Users\DSD\Documents\GitHub\disp_map_gen\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\Users\Admin\Documents\GitHub\Full_System\pcores\" "C:\Users\Admin\Documents\GitHub\2010_09_10_Interrupt_Test\pcores\" "C:\Users\Admin\Documents\GitHub\Full_System_Mult_Buses\pcores\" "C:\Users\Admin\Documents\GitHub\Full_System_VMOD_Switch\pcores\" "C:\Users\Admin\Documents\GitHub\Test_Intr\pcores\" "C:\Users\Admin\Documents\GitHub\Vmod_in_HDMI_100MHz\pcores\" "C:\Xilinx\14.2\ISE_DS\edk_user_repository\MyProcessorIPLib\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.2\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc6slx45csg324-3
@@ -62,22 +62,23 @@ Cores Search Directories           : {../implementation}
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" into library load_bram_v1_00_a
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" into library load_bram_v1_00_a
 Parsing module <pxconv>.
-INFO:HDLCompiler:693 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 28. parameter declaration becomes local in pxconv with formal parameter declaration list
-INFO:HDLCompiler:693 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 29. parameter declaration becomes local in pxconv with formal parameter declaration list
-INFO:HDLCompiler:693 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 30. parameter declaration becomes local in pxconv with formal parameter declaration list
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/PXBRAM.v" into library load_bram_v1_00_a
+INFO:HDLCompiler:693 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 28. parameter declaration becomes local in pxconv with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 29. parameter declaration becomes local in pxconv with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 30. parameter declaration becomes local in pxconv with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 31. parameter declaration becomes local in pxconv with formal parameter declaration list
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/PXBRAM.v" into library load_bram_v1_00_a
 Parsing module <PXBRAM>.
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/fifo.v" into library load_bram_v1_00_a
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/fifo.v" into library load_bram_v1_00_a
 Parsing module <fifo>.
-Analyzing Verilog file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" into library load_bram_v1_00_a
+Analyzing Verilog file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" into library load_bram_v1_00_a
 Parsing module <Disp_Map_Calc>.
-INFO:HDLCompiler:693 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 61. parameter declaration becomes local in Disp_Map_Calc with formal parameter declaration list
-INFO:HDLCompiler:693 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 65. parameter declaration becomes local in Disp_Map_Calc with formal parameter declaration list
-INFO:HDLCompiler:693 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 66. parameter declaration becomes local in Disp_Map_Calc with formal parameter declaration list
-INFO:HDLCompiler:693 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 67. parameter declaration becomes local in Disp_Map_Calc with formal parameter declaration list
-INFO:HDLCompiler:693 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 70. parameter declaration becomes local in Disp_Map_Calc with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 61. parameter declaration becomes local in Disp_Map_Calc with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 65. parameter declaration becomes local in Disp_Map_Calc with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 66. parameter declaration becomes local in Disp_Map_Calc with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 67. parameter declaration becomes local in Disp_Map_Calc with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 70. parameter declaration becomes local in Disp_Map_Calc with formal parameter declaration list
 Parsing VHDL file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" into library proc_common_v3_00_a
 Parsing package <proc_common_pkg>.
 Parsing package body <proc_common_pkg>.
@@ -179,13 +180,13 @@ Parsing architecture <implementation> of entity <axi_master_burst>.
 Parsing VHDL file "C:/Xilinx/14.2/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/axi_lite_ipif.vhd" into library axi_lite_ipif_v1_01_a
 Parsing entity <axi_lite_ipif>.
 Parsing architecture <imp> of entity <axi_lite_ipif>.
-Parsing VHDL file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" into library load_bram_v1_00_a
+Parsing VHDL file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" into library load_bram_v1_00_a
 Parsing entity <user_logic>.
 Parsing architecture <IMP> of entity <user_logic>.
-Parsing VHDL file "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/load_bram.vhd" into library load_bram_v1_00_a
+Parsing VHDL file "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/load_bram.vhd" into library load_bram_v1_00_a
 Parsing entity <load_bram>.
 Parsing architecture <IMP> of entity <load_bram>.
-Parsing VHDL file "C:\Users\DSD\Documents\GitHub\Full_System\hdl\system_load_bram_0_wrapper.vhd" into library work
+Parsing VHDL file "C:\Users\Admin\Documents\GitHub\Full_System\hdl\system_load_bram_0_wrapper.vhd" into library work
 Parsing entity <system_load_bram_0_wrapper>.
 Parsing architecture <STRUCTURE> of entity <system_load_bram_0_wrapper>.
 
@@ -298,64 +299,58 @@ Elaborating entity <axi_master_burst_rd_llink> (architecture <implementation>) w
 Elaborating entity <axi_master_burst_wr_llink> (architecture <implementation>) with generics from library <axi_master_burst_v1_00_a>.
 
 Elaborating entity <user_logic> (architecture <IMP>) with generics from library <load_bram_v1_00_a>.
-WARNING:HDLCompiler:1127 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 604: Assignment to mst_xfer_reg_len ignored, since the identifier is never used
-INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 832. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 887. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 1022. Case statement is complete. others clause is never selected
+WARNING:HDLCompiler:1127 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 607: Assignment to mst_xfer_reg_len ignored, since the identifier is never used
+INFO:HDLCompiler:679 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 835. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 890. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 1025. Case statement is complete. others clause is never selected
 Going to verilog side to elaborate module fifo
 
 Elaborating module <fifo>.
-WARNING:HDLCompiler:1499 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/fifo.v" Line 39: Empty module <fifo> remains a black box.
+WARNING:HDLCompiler:1499 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/fifo.v" Line 39: Empty module <fifo> remains a black box.
 Back to vhdl to continue elaboration
 Going to verilog side to elaborate module fifo
 Back to vhdl to continue elaboration
 Going to verilog side to elaborate module pxconv
 
 Elaborating module <pxconv(VRES=480,HRES=640,BURST=128)>.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 48: Result of 9-bit expression is truncated to fit in 8-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 50: Result of 4-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 75: Result of 25-bit expression is truncated to fit in 24-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 84: Result of 25-bit expression is truncated to fit in 24-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 90: Result of 14-bit expression is truncated to fit in 13-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v" Line 125: Result of 25-bit expression is truncated to fit in 24-bit target.
 Back to vhdl to continue elaboration
 Going to verilog side to elaborate module pxconv
 Back to vhdl to continue elaboration
 Going to verilog side to elaborate module PXBRAM
 
 Elaborating module <PXBRAM>.
-WARNING:HDLCompiler:1499 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/PXBRAM.v" Line 39: Empty module <PXBRAM> remains a black box.
+WARNING:HDLCompiler:1499 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/PXBRAM.v" Line 39: Empty module <PXBRAM> remains a black box.
 Back to vhdl to continue elaboration
 Going to verilog side to elaborate module PXBRAM
 Back to vhdl to continue elaboration
 Going to verilog side to elaborate module Disp_Map_Calc
 
 Elaborating module <Disp_Map_Calc(NUM_OF_ROWS_IN_BRAM=8,NUM_OF_WIN=64,VRES=480,HRES=640,BRAM_DATA_WIDTH=16,BRAM_ADDR_WIDTH=13,BRAM_WE_WIDTH=1,window=7)>.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 269: Result of 32-bit expression is truncated to fit in 13-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 270: Result of 32-bit expression is truncated to fit in 13-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 279: Result of 32-bit expression is truncated to fit in 13-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 280: Result of 32-bit expression is truncated to fit in 13-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 287: Result of 32-bit expression is truncated to fit in 13-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 288: Result of 32-bit expression is truncated to fit in 13-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 305: Result of 32-bit expression is truncated to fit in 13-bit target.
-WARNING:HDLCompiler:413 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 306: Result of 32-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 269: Result of 32-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 270: Result of 32-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 279: Result of 32-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 280: Result of 32-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 287: Result of 32-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 288: Result of 32-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 305: Result of 32-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:413 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v" Line 306: Result of 32-bit expression is truncated to fit in 13-bit target.
 Back to vhdl to continue elaboration
-INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 1232. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 1273. Case statement is complete. others clause is never selected
-INFO:HDLCompiler:679 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 1344. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 1240. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 1286. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" Line 1362. Case statement is complete. others clause is never selected
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <system_load_bram_0_wrapper>.
-    Related source file is "C:\Users\DSD\Documents\GitHub\Full_System\hdl\system_load_bram_0_wrapper.vhd".
+    Related source file is "C:\Users\Admin\Documents\GitHub\Full_System\hdl\system_load_bram_0_wrapper.vhd".
     Summary:
 	no macro.
 Unit <system_load_bram_0_wrapper> synthesized.
 
 Synthesizing Unit <load_bram>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/load_bram.vhd".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/load_bram.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
@@ -399,8 +394,8 @@ WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/p
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
     Set property "MAX_FANOUT = 10000" for signal <m_axi_aresetn>.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/load_bram.vhd" line 400: Output port <Bus2IP_Addr> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/load_bram.vhd" line 400: Output port <Bus2IP_RNW> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/load_bram.vhd" line 400: Output port <Bus2IP_Addr> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/load_bram.vhd" line 400: Output port <Bus2IP_RNW> of the instance <AXI_LITE_IPIF_I> is unconnected or connected to loadless signal.
     Summary:
 	inferred   3 Multiplexer(s).
 Unit <load_bram> synthesized.
@@ -1299,7 +1294,7 @@ WARNING:Xst:647 - Input <ip2bus_mstwr_src_dsc_n> is never used. This port will b
 Unit <axi_master_burst_wr_llink> synthesized.
 
 Synthesizing Unit <user_logic>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
@@ -1330,12 +1325,13 @@ WARNING:Xst:647 - Input <bus2ip_mstrd_rem> is never used. This port will be pres
 WARNING:Xst:647 - Input <bus2ip_mst_rearbitrate> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <bus2ip_mstrd_sof_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <bus2ip_mstrd_src_dsc_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1042: Output port <full> of the instance <fifo_ref> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1057: Output port <full> of the instance <fifo_search> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1083: Output port <busy> of the instance <pxconv_inst_ref> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1106: Output port <busy> of the instance <pxconv_inst_search> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1129: Output port <douta> of the instance <bram_ref> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1146: Output port <douta> of the instance <bram_search> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1045: Output port <full> of the instance <fifo_ref> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1060: Output port <full> of the instance <fifo_search> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1086: Output port <busy> of the instance <pxconv_inst_ref> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1109: Output port <pxconv_to_axi_ready_to_rd> of the instance <pxconv_inst_search> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1109: Output port <busy> of the instance <pxconv_inst_search> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1132: Output port <douta> of the instance <bram_ref> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/vhdl/user_logic.vhd" line 1149: Output port <douta> of the instance <bram_search> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <ip2bus_mstwr_d> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Found 32-bit register for signal <slv_reg1>.
     Found 32-bit register for signal <slv_reg2>.
@@ -1377,9 +1373,11 @@ WARNING:Xst:653 - Signal <ip2bus_mstwr_d> is used but never assigned. This sourc
     Found 1-bit register for signal <mst_llwr_sm_eof>.
     Found 32-bit register for signal <mst_llwr_byte_cnt>.
     Found 1-bit register for signal <axi_to_pxconv_valid>.
+    Found 1-bit register for signal <fifo_rd_en>.
     Found 2-bit register for signal <read_fifo_state>.
     Found 16-bit register for signal <axi_to_pxconv_data>.
     Found 1-bit register for signal <axi_to_pxconv_valid_search>.
+    Found 1-bit register for signal <fifo_search_rd_en>.
     Found 2-bit register for signal <read_fifo_state_search>.
     Found 16-bit register for signal <axi_to_pxconv_data_search>.
     Found 3-bit register for signal <cama_sm_state>.
@@ -1428,9 +1426,9 @@ WARNING:Xst:653 - Signal <ip2bus_mstwr_d> is used but never assigned. This sourc
     Found finite state machine <FSM_6> for signal <cama_sm_state>.
     -----------------------------------------------------------------------
     | States             | 5                                              |
-    | Transitions        | 12                                             |
-    | Inputs             | 5                                              |
-    | Outputs            | 4                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 6                                              |
     | Clock              | Bus2IP_Clk (rising_edge)                       |
     | Reset              | Bus2IP_Reset (positive)                        |
     | Reset type         | synchronous                                    |
@@ -1439,22 +1437,24 @@ WARNING:Xst:653 - Signal <ip2bus_mstwr_d> is used but never assigned. This sourc
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 32-bit adder for signal <pa_wr_addr[31]_GND_180_o_add_157_OUT> created at line 1321.
-    Found 32-bit adder for signal <pb_wr_addr[31]_GND_180_o_add_164_OUT> created at line 1340.
-    Found 32-bit subtractor for signal <GND_180_o_GND_180_o_sub_156_OUT<31:0>> created at line 1318.
-    Found 32-bit subtractor for signal <GND_180_o_GND_180_o_sub_163_OUT<31:0>> created at line 1337.
-    Found 1-bit 4-to-1 multiplexer for signal <mst_cmd_sm_state[1]_GND_180_o_Mux_84_o> created at line 772.
-    Found 1-bit 4-to-1 multiplexer for signal <mst_cmd_sm_state[1]_GND_180_o_Mux_85_o> created at line 772.
-    Found 1-bit 3-to-1 multiplexer for signal <read_fifo_state[1]_X_56_o_Mux_135_o> created at line 1205.
-    Found 1-bit 3-to-1 multiplexer for signal <read_fifo_state_search[1]_X_56_o_Mux_146_o> created at line 1246.
-    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_go_MUX_1271_o> created at line 1356.
-    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_mst_cntl_rd_req_MUX_1284_o> created at line 1356.
-    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_fifo_ref_sel_MUX_1297_o> created at line 1356.
-    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_bus2ip_mst_cmdack_MUX_1310_o> created at line 1356.
-    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_fifo_empty_MUX_1323_o> created at line 1356.
-    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_fifo_empty_search_MUX_1336_o> created at line 1356.
-    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_axi_to_pxconv_valid_search_MUX_1349_o> created at line 1356.
-    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_axi_to_pxconv_valid_MUX_1362_o> created at line 1356.
+    Found 32-bit adder for signal <pa_wr_addr[31]_GND_180_o_add_158_OUT> created at line 1338.
+    Found 32-bit adder for signal <pb_wr_addr[31]_GND_180_o_add_165_OUT> created at line 1358.
+    Found 32-bit subtractor for signal <GND_180_o_GND_180_o_sub_157_OUT<31:0>> created at line 1335.
+    Found 32-bit subtractor for signal <GND_180_o_GND_180_o_sub_164_OUT<31:0>> created at line 1355.
+    Found 1-bit 4-to-1 multiplexer for signal <mst_cmd_sm_state[1]_GND_180_o_Mux_84_o> created at line 775.
+    Found 1-bit 4-to-1 multiplexer for signal <mst_cmd_sm_state[1]_GND_180_o_Mux_85_o> created at line 775.
+    Found 1-bit 3-to-1 multiplexer for signal <read_fifo_state[1]_X_56_o_Mux_135_o> created at line 1209.
+    Found 1-bit 3-to-1 multiplexer for signal <read_fifo_state[1]_X_56_o_Mux_136_o> created at line 1209.
+    Found 1-bit 3-to-1 multiplexer for signal <read_fifo_state_search[1]_X_56_o_Mux_147_o> created at line 1255.
+    Found 1-bit 3-to-1 multiplexer for signal <read_fifo_state_search[1]_X_56_o_Mux_148_o> created at line 1255.
+    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_go_MUX_1284_o> created at line 1374.
+    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_mst_cntl_rd_req_MUX_1297_o> created at line 1374.
+    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_fifo_ref_sel_MUX_1310_o> created at line 1374.
+    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_bus2ip_mst_cmdack_MUX_1323_o> created at line 1374.
+    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_fifo_empty_MUX_1336_o> created at line 1374.
+    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_fifo_empty_search_MUX_1349_o> created at line 1374.
+    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_axi_to_pxconv_valid_search_MUX_1362_o> created at line 1374.
+    Found 1-bit 13-to-1 multiplexer for signal <LED_O[7]_axi_to_pxconv_valid_MUX_1375_o> created at line 1374.
 WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -1463,23 +1463,23 @@ WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<3>>. Latches may be genera
 WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <LED_O<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 32-bit comparator equal for signal <pa_wr_addr[31]_GND_180_o_equal_157_o> created at line 1318
-    Found 32-bit comparator equal for signal <pb_wr_addr[31]_GND_180_o_equal_164_o> created at line 1337
+    Found 32-bit comparator equal for signal <pa_wr_addr[31]_GND_180_o_equal_158_o> created at line 1335
+    Found 32-bit comparator equal for signal <pb_wr_addr[31]_GND_180_o_equal_165_o> created at line 1355
     WARNING:Xst:2404 -  FFs/Latches <mst_cmd_sm_reset<0:0>> (without init value) have a constant value of 0 in block <user_logic>.
     WARNING:Xst:2404 -  FFs/Latches <mst_cmd_sm_wr_req<0:0>> (without init value) have a constant value of 0 in block <user_logic>.
     WARNING:Xst:2404 -  FFs/Latches <mst_cmd_sm_bus_lock<0:0>> (without init value) have a constant value of 0 in block <user_logic>.
     WARNING:Xst:2404 -  FFs/Latches <mst_cmd_sm_start_wr_llink<0:0>> (without init value) have a constant value of 0 in block <user_logic>.
     Summary:
 	inferred   4 Adder/Subtractor(s).
-	inferred 440 D-type flip-flop(s).
+	inferred 442 D-type flip-flop(s).
 	inferred   8 Latch(s).
 	inferred   2 Comparator(s).
-	inferred 222 Multiplexer(s).
+	inferred 226 Multiplexer(s).
 	inferred   4 Finite State Machine(s).
 Unit <user_logic> synthesized.
 
 Synthesizing Unit <pxconv>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/pxconv.v".
         VRES = 480
         HRES = 640
         BURST = 128
@@ -1487,26 +1487,28 @@ Synthesizing Unit <pxconv>.
     Found 1-bit register for signal <pxconv_to_bram_wr_en>.
     Found 24-bit register for signal <px_cnt>.
     Found 24-bit register for signal <px_cnt_d>.
+    Found 1-bit register for signal <fill_win>.
     Found 16-bit register for signal <axi_to_pxconv_data_d>.
     Found 1-bit register for signal <axi_to_pxconv_valid_d>.
     Found 1-bit register for signal <pxconv_to_axi_ready_to_rd>.
+    Found 24-bit register for signal <rd_cnt>.
+    Found 24-bit register for signal <row_cnt>.
     Found 1-bit register for signal <wnd_in_bram>.
     Found 16-bit register for signal <pxconv_to_bram_data>.
-    Found 24-bit adder for signal <px_cnt[23]_GND_183_o_add_8_OUT> created at line 75.
-    Found 24-bit adder for signal <px_cnt_d[23]_GND_183_o_add_12_OUT> created at line 84.
-    Found 13-bit adder for signal <pxconv_to_bram_addr[12]_GND_183_o_add_15_OUT> created at line 90.
-    Found 9-bit adder for signal <_n0103> created at line 33.
-    Found 9-bit adder for signal <px_low_add> created at line 33.
-    Found 24-bit comparator greater for signal <px_cnt[23]_GND_183_o_LessThan_36_o> created at line 119
-    Found 24-bit comparator lessequal for signal <n0038> created at line 140
-    WARNING:Xst:2404 -  FFs/Latches <pxconv_to_axi_mst_length<1:4>> (without init value) have a constant value of 0 in block <pxconv>.
-    WARNING:Xst:2404 -  FFs/Latches <pxconv_to_axi_mst_length<4:4>> (without init value) have a constant value of 1 in block <pxconv>.
-    WARNING:Xst:2404 -  FFs/Latches <pxconv_to_axi_mst_length<4:10>> (without init value) have a constant value of 0 in block <pxconv>.
+    Found 24-bit adder for signal <px_cnt[23]_GND_183_o_add_9_OUT> created at line 83.
+    Found 13-bit adder for signal <pxconv_to_bram_addr[12]_GND_183_o_add_13_OUT> created at line 93.
+    Found 24-bit adder for signal <rd_cnt[23]_GND_183_o_add_34_OUT> created at line 142.
+    Found 24-bit adder for signal <row_cnt[23]_GND_183_o_add_35_OUT> created at line 146.
+    Found 9-bit adder for signal <_n0140> created at line 34.
+    Found 9-bit adder for signal <px_low_add> created at line 34.
+    Found 24-bit comparator greater for signal <n0007> created at line 73
+    Found 24-bit comparator greater for signal <rd_cnt[23]_GND_183_o_LessThan_33_o> created at line 138
+    Found 24-bit comparator lessequal for signal <n0061> created at line 200
     Summary:
-	inferred   5 Adder/Subtractor(s).
-	inferred  97 D-type flip-flop(s).
-	inferred   2 Comparator(s).
-	inferred   4 Multiplexer(s).
+	inferred   6 Adder/Subtractor(s).
+	inferred 146 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred   8 Multiplexer(s).
 Unit <pxconv> synthesized.
 
 Synthesizing Unit <div_9u_2u>.
@@ -1537,7 +1539,7 @@ Synthesizing Unit <div_9u_2u>.
 Unit <div_9u_2u> synthesized.
 
 Synthesizing Unit <Disp_Map_Calc>.
-    Related source file is "C:/Users/DSD/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v".
+    Related source file is "C:/Users/Admin/Documents/GitHub/Full_System/pcores/load_bram_v1_00_a/hdl/verilog/bram_dm.v".
         NUM_OF_ROWS_IN_BRAM = 8
         NUM_OF_WIN = 64
         VRES = 480
@@ -1615,7 +1617,7 @@ Macro Statistics
  256x4-bit single-port Read Only RAM                   : 1
 # Multipliers                                          : 1
  10x3-bit multiplier                                   : 1
-# Adders/Subtractors                                   : 70
+# Adders/Subtractors                                   : 72
  10-bit adder                                          : 2
  11-bit adder                                          : 2
  12-bit adder                                          : 4
@@ -1625,7 +1627,7 @@ Macro Statistics
  16-bit adder                                          : 4
  16-bit subtractor                                     : 2
  2-bit subtractor                                      : 1
- 24-bit adder                                          : 4
+ 24-bit adder                                          : 6
  3-bit addsub                                          : 4
  3-bit subtractor                                      : 1
  32-bit adder                                          : 4
@@ -1638,13 +1640,13 @@ Macro Statistics
  7-bit subtractor                                      : 2
  8-bit subtractor                                      : 2
  9-bit adder                                           : 18
-# Registers                                            : 323
- 1-bit register                                        : 205
+# Registers                                            : 331
+ 1-bit register                                        : 209
  12-bit register                                       : 8
  13-bit register                                       : 4
  16-bit register                                       : 11
  2-bit register                                        : 8
- 24-bit register                                       : 4
+ 24-bit register                                       : 8
  3-bit register                                        : 7
  32-bit register                                       : 19
  4-bit register                                        : 28
@@ -1653,7 +1655,7 @@ Macro Statistics
  8-bit register                                        : 20
 # Latches                                              : 11
  1-bit latch                                           : 11
-# Comparators                                          : 54
+# Comparators                                          : 56
  10-bit comparator lessequal                           : 2
  11-bit comparator lessequal                           : 2
  12-bit comparator greater                             : 1
@@ -1661,7 +1663,7 @@ Macro Statistics
  16-bit comparator equal                               : 1
  16-bit comparator greater                             : 1
  16-bit comparator lessequal                           : 1
- 24-bit comparator greater                             : 2
+ 24-bit comparator greater                             : 4
  24-bit comparator lessequal                           : 2
  3-bit comparator lessequal                            : 3
  32-bit comparator equal                               : 2
@@ -1669,16 +1671,16 @@ Macro Statistics
  32-bit comparator lessequal                           : 16
  6-bit comparator greater                              : 1
  9-bit comparator lessequal                            : 16
-# Multiplexers                                         : 501
+# Multiplexers                                         : 513
  1-bit 13-to-1 multiplexer                             : 8
- 1-bit 2-to-1 multiplexer                              : 370
- 1-bit 3-to-1 multiplexer                              : 2
+ 1-bit 2-to-1 multiplexer                              : 378
+ 1-bit 3-to-1 multiplexer                              : 4
  1-bit 4-to-1 multiplexer                              : 2
  12-bit 2-to-1 multiplexer                             : 14
  13-bit 2-to-1 multiplexer                             : 8
  16-bit 2-to-1 multiplexer                             : 8
  2-bit 2-to-1 multiplexer                              : 1
- 24-bit 2-to-1 multiplexer                             : 6
+ 24-bit 2-to-1 multiplexer                             : 8
  3-bit 2-to-1 multiplexer                              : 7
  3-bit 7-to-1 multiplexer                              : 1
  32-bit 2-to-1 multiplexer                             : 38
@@ -1698,7 +1700,7 @@ Macro Statistics
 =========================================================================
 
 WARNING:Xst:2404 -  FFs/Latches <mst_reg_1<7:4>> (without init value) have a constant value of 0 in block <user_logic>.
-WARNING:Xst:2404 -  FFs/Latches <pxconv_to_bram_data<15:8>> (without init value) have a constant value of 0 in block <pxconv>.
+WARNING:Xst:2404 -  FFs/Latches <pxconv_to_bram_data<15:9>> (without init value) have a constant value of 0 in block <pxconv>.
 
 Synthesizing (advanced) Unit <Disp_Map_Calc>.
 The following registers are absorbed into counter <win_count>: 1 register on signal <win_count>.
@@ -1748,6 +1750,7 @@ Unit <axi_master_burst_wrdata_cntl> synthesized (advanced).
 Synthesizing (advanced) Unit <pxconv>.
 The following registers are absorbed into counter <pxconv_to_bram_addr>: 1 register on signal <pxconv_to_bram_addr>.
 The following registers are absorbed into counter <px_cnt>: 1 register on signal <px_cnt>.
+The following registers are absorbed into counter <row_cnt>: 1 register on signal <row_cnt>.
 Unit <pxconv> synthesized (advanced).
 
 Synthesizing (advanced) Unit <slave_attachment>.
@@ -1799,19 +1802,19 @@ Macro Statistics
  9-bit adder                                           : 22
 # Adder Trees                                          : 1
  13-bit / 3-inputs adder tree                          : 1
-# Counters                                             : 15
+# Counters                                             : 17
  13-bit up counter                                     : 2
  16-bit up counter                                     : 1
- 24-bit up counter                                     : 2
+ 24-bit up counter                                     : 4
  3-bit updown counter                                  : 4
  4-bit up counter                                      : 2
  7-bit up counter                                      : 2
  8-bit down counter                                    : 2
 # Accumulators                                         : 1
  12-bit down loadable accumulator                      : 1
-# Registers                                            : 1416
- Flip-Flops                                            : 1416
-# Comparators                                          : 54
+# Registers                                            : 1470
+ Flip-Flops                                            : 1470
+# Comparators                                          : 56
  10-bit comparator lessequal                           : 2
  11-bit comparator lessequal                           : 2
  12-bit comparator greater                             : 1
@@ -1819,7 +1822,7 @@ Macro Statistics
  16-bit comparator equal                               : 1
  16-bit comparator greater                             : 1
  16-bit comparator lessequal                           : 1
- 24-bit comparator greater                             : 2
+ 24-bit comparator greater                             : 4
  24-bit comparator lessequal                           : 2
  3-bit comparator lessequal                            : 3
  32-bit comparator equal                               : 2
@@ -1827,10 +1830,10 @@ Macro Statistics
  32-bit comparator lessequal                           : 16
  6-bit comparator greater                              : 1
  9-bit comparator lessequal                            : 16
-# Multiplexers                                         : 619
+# Multiplexers                                         : 629
  1-bit 13-to-1 multiplexer                             : 8
- 1-bit 2-to-1 multiplexer                              : 503
- 1-bit 3-to-1 multiplexer                              : 2
+ 1-bit 2-to-1 multiplexer                              : 511
+ 1-bit 3-to-1 multiplexer                              : 4
  1-bit 4-to-1 multiplexer                              : 2
  12-bit 2-to-1 multiplexer                             : 13
  13-bit 2-to-1 multiplexer                             : 6
@@ -1942,6 +1945,17 @@ Optimizing FSM <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_MSTR_PCC/F
  chk_if_done       | 101
  error_trap        | 110
 -------------------------------
+WARNING:Xst:1710 - FF/Latch <pxconv_to_bram_data_8> (without init value) has a constant value of 0 in block <pxconv>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <px_cnt_d_0> of sequential type is unconnected in block <pxconv>.
+WARNING:Xst:2677 - Node <px_cnt_d_1> of sequential type is unconnected in block <pxconv>.
+WARNING:Xst:2677 - Node <px_cnt_d_2> of sequential type is unconnected in block <pxconv>.
+WARNING:Xst:2677 - Node <px_cnt_d_3> of sequential type is unconnected in block <pxconv>.
+WARNING:Xst:2677 - Node <px_cnt_d_4> of sequential type is unconnected in block <pxconv>.
+WARNING:Xst:2677 - Node <px_cnt_d_5> of sequential type is unconnected in block <pxconv>.
+WARNING:Xst:2677 - Node <px_cnt_d_6> of sequential type is unconnected in block <pxconv>.
+WARNING:Xst:2677 - Node <px_cnt_d_7> of sequential type is unconnected in block <pxconv>.
+WARNING:Xst:2677 - Node <px_cnt_d_8> of sequential type is unconnected in block <pxconv>.
+WARNING:Xst:2677 - Node <px_cnt_d_9> of sequential type is unconnected in block <pxconv>.
 WARNING:Xst:2677 - Node <win_row_index_3> of sequential type is unconnected in block <Disp_Map_Calc>.
 WARNING:Xst:2677 - Node <win_row_index_4> of sequential type is unconnected in block <Disp_Map_Calc>.
 WARNING:Xst:2677 - Node <win_row_index_5> of sequential type is unconnected in block <Disp_Map_Calc>.
@@ -2166,6 +2180,56 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/AXI_MAS
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WRITE_MMAP_SKID_BUF/sig_data_skid_reg_10> has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WRITE_MMAP_SKID_BUF/sig_data_skid_reg_9> has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_ADDR_CNTL/sig_wr_addr_valid_reg> has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_23> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_22> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_21> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_20> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_19> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_18> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_17> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_16> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_15> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_14> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_13> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_12> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_11> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_10> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_9> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_8> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_7> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_6> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_5> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_4> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_3> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_2> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_1> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/row_cnt_0> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_23> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_22> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_21> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_20> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_19> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_18> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_17> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_16> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_15> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_14> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_13> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_12> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_11> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_10> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_9> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_8> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_7> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_6> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_5> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_4> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_3> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_2> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_1> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/rd_cnt_0> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/pxconv_to_axi_ready_to_rd> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
+WARNING:Xst:2677 - Node <load_bram_0/USER_LOGIC_I/pxconv_inst_search/fill_win> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
 WARNING:Xst:2677 - Node <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_MSTR_PCC/sig_xfer_btt_reg_11> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
 WARNING:Xst:2677 - Node <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_MSTR_PCC/sig_xfer_btt_reg_10> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
 WARNING:Xst:2677 - Node <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_MSTR_PCC/sig_xfer_btt_reg_9> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
@@ -2352,18 +2416,37 @@ WARNING:Xst:2677 - Node <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_W
 WARNING:Xst:2677 - Node <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WR_STATUS_CNTLR/GEN_OMIT_STORE_FORWARD.I_DATA_CNTL_STATUS_FIFO/sig_init_reg2> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
 WARNING:Xst:2677 - Node <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WR_STATUS_CNTLR/GEN_OMIT_STORE_FORWARD.I_DATA_CNTL_STATUS_FIFO/sig_init_done> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
 WARNING:Xst:2677 - Node <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WR_STATUS_CNTLR/GEN_OMIT_STORE_FORWARD.I_DATA_CNTL_STATUS_FIFO/sig_init_reg> of sequential type is unconnected in block <system_load_bram_0_wrapper>.
-WARNING:Xst:1293 - FF/Latch <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WR_STATUS_CNTLR/GEN_OMIT_STORE_FORWARD.I_DATA_CNTL_STATUS_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[0].FDS_I> has a constant value of 1 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WR_STATUS_CNTLR/GEN_OMIT_STORE_FORWARD.I_DATA_CNTL_STATUS_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[1].FDS_I> has a constant value of 1 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_13> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_12> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_11> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_10> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_9> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_8> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_7> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_6> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_23> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_22> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_21> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_20> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_19> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_18> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_17> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_16> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_15> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_14> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_13> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_12> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_11> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_10> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_9> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_8> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_7> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_6> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_5> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/rd_cnt_4> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WR_STATUS_CNTLR/GEN_OMIT_STORE_FORWARD.I_DATA_CNTL_STATUS_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[2].FDS_I> has a constant value of 1 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_0> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_1> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_2> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_3> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_4> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_5> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_6> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pa_wr_addr_0> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pa_wr_addr_1> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WR_STATUS_CNTLR/GEN_OMIT_STORE_FORWARD.I_DATA_CNTL_STATUS_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[1].FDS_I> has a constant value of 1 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WR_STATUS_CNTLR/GEN_OMIT_STORE_FORWARD.I_DATA_CNTL_STATUS_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[0].FDS_I> has a constant value of 1 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_6> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_5> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/mst_cmd_sm_ip2bus_addr_4> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
@@ -2376,6 +2459,25 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LO
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pa_wr_addr_4> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pa_wr_addr_3> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pa_wr_addr_2> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pa_wr_addr_1> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pa_wr_addr_0> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_6> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_14> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_15> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_16> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_17> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_18> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_19> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_20> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_21> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_22> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pxconv_inst_ref/row_cnt_23> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_0> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_1> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_2> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_3> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_4> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/USER_LOGIC_I/pb_wr_addr_5> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_6> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_5> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <load_bram_0/AXI_MASTER_BURST_I/I_CMD_STATUS_MODULE/sig_cmd_mst_addr_4> (without init value) has a constant value of 0 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
@@ -2452,8 +2554,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1122
- Flip-Flops                                            : 1122
+# Registers                                            : 1114
+ Flip-Flops                                            : 1114
 
 =========================================================================
 WARNING:Xst:1293 - FF/Latch <load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/I_WR_STATUS_CNTLR/GEN_OMIT_STORE_FORWARD.I_DATA_CNTL_STATUS_FIFO/USE_SRL_FIFO.I_SYNC_FIFO/I_SRL_FIFO_RBU_F/CNTR_INCR_DECR_ADDN_F_I/STRUCTURAL_A_GEN.Addr_Counters[2].FDS_I> has a constant value of 1 in block <system_load_bram_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
@@ -2482,26 +2584,26 @@ Top Level Output File Name         : system_load_bram_0_wrapper.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2170
+# BELS                             : 1982
 #      GND                         : 1
 #      INV                         : 19
-#      LUT1                        : 168
+#      LUT1                        : 130
 #      LUT2                        : 174
-#      LUT3                        : 193
-#      LUT4                        : 288
-#      LUT5                        : 223
-#      LUT6                        : 374
-#      MUXCY                       : 363
+#      LUT3                        : 200
+#      LUT4                        : 236
+#      LUT5                        : 216
+#      LUT6                        : 359
+#      MUXCY                       : 320
 #      MUXCY_L                     : 6
-#      MUXF7                       : 9
+#      MUXF7                       : 7
 #      VCC                         : 1
-#      XORCY                       : 351
-# FlipFlops/Latches                : 1133
-#      FD                          : 107
+#      XORCY                       : 313
+# FlipFlops/Latches                : 1125
+#      FD                          : 108
 #      FDE                         : 210
-#      FDR                         : 163
-#      FDRE                        : 618
-#      FDS                         : 6
+#      FDR                         : 143
+#      FDRE                        : 628
+#      FDS                         : 7
 #      FDSE                        : 18
 #      LD                          : 11
 # Shift Registers                  : 9
@@ -2517,18 +2619,18 @@ Selected Device : 6slx45csg324-3
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            1133  out of  54576     2%  
- Number of Slice LUTs:                 1448  out of  27288     5%  
-    Number used as Logic:              1439  out of  27288     5%  
+ Number of Slice Registers:            1125  out of  54576     2%  
+ Number of Slice LUTs:                 1343  out of  27288     4%  
+    Number used as Logic:              1334  out of  27288     4%  
     Number used as Memory:                9  out of   6408     0%  
        Number used as SRL:                9
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1817
-   Number with an unused Flip Flop:     684  out of   1817    37%  
-   Number with an unused LUT:           369  out of   1817    20%  
-   Number of fully used LUT-FF pairs:   764  out of   1817    42%  
-   Number of unique control sets:        54
+ Number of LUT Flip Flop pairs used:   1739
+   Number with an unused Flip Flop:     614  out of   1739    35%  
+   Number with an unused LUT:           396  out of   1739    22%  
+   Number of fully used LUT-FF pairs:   729  out of   1739    41%  
+   Number of unique control sets:        56
 
 IO Utilization: 
  Number of IOs:                         385
@@ -2557,7 +2659,7 @@ Clock Information:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+-------+
 Clock Signal                                                                                                                                                     | Clock buffer(FF name)                                                       | Load  |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+-------+
-S_AXI_ACLK                                                                                                                                                       | NONE(load_bram_0/USER_LOGIC_I/cama_sm_state_FSM_FFd1)                       | 755   |
+S_AXI_ACLK                                                                                                                                                       | NONE(load_bram_0/USER_LOGIC_I/cama_sm_state_FSM_FFd1)                       | 747   |
 load_bram_0/USER_LOGIC_I/SW_I[3]_SW_I[3]_OR_272_o(load_bram_0/USER_LOGIC_I/SW_I[3]_SW_I[3]_OR_272_o1:O)                                                          | NONE(*)(load_bram_0/USER_LOGIC_I/LED_O_0)                                   | 8     |
 load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/curr_state[2]_PWR_72_o_Mux_25_o(load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/Mmux_curr_state[2]_PWR_72_o_Mux_25_o11:O)| NONE(*)(load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/saved_state_1)          | 3     |
 m_axi_aclk                                                                                                                                                       | NONE(load_bram_0/AXI_MASTER_BURST_I/I_RD_WR_CNTRL_MODULE/sig_doing_read_reg)| 376   |
@@ -2587,7 +2689,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'S_AXI_ACLK'
   Clock period: 5.890ns (frequency: 169.784MHz)
-  Total number of paths / destination ports: 22464 / 1175
+  Total number of paths / destination ports: 20798 / 1187
 -------------------------------------------------------------------------
 Delay:               5.890ns (Levels of Logic = 9)
   Source:            load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/comp_p_row_2 (FF)
@@ -2642,7 +2744,7 @@ Delay:               6.890ns (Levels of Logic = 5)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'S_AXI_ACLK'
-  Total number of paths / destination ports: 5017 / 1185
+  Total number of paths / destination ports: 5018 / 1185
 -------------------------------------------------------------------------
 Offset:              4.814ns (Levels of Logic = 9)
   Source:            load_bram_0/USER_LOGIC_I/bram_search:doutb<0> (PAD)
@@ -2661,7 +2763,7 @@ Offset:              4.814ns (Levels of Logic = 9)
      MUXCY:CI->O           1   0.019   0.000  load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/Mcompar_dout_ref[11]_dout_search[11]_LessThan_108_o_cy<3> (load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/Mcompar_dout_ref[11]_dout_search[11]_LessThan_108_o_cy<3>)
      MUXCY:CI->O           1   0.213   0.580  load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/Mcompar_dout_ref[11]_dout_search[11]_LessThan_108_o_cy<4> (load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/Mcompar_dout_ref[11]_dout_search[11]_LessThan_108_o_cy<4>)
      LUT5:I4->O           22   0.205   1.362  load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/Mcompar_dout_ref[11]_dout_search[11]_LessThan_108_o_cy<5> (load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/Mcompar_dout_ref[11]_dout_search[11]_LessThan_108_o_cy<5>)
-     LUT3:I0->O            1   0.205   0.580  load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/Mmux__n046012_SW0 (N22)
+     LUT3:I0->O            1   0.205   0.580  load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/Mmux__n046012_SW0 (N12)
      LUT6:I5->O            1   0.205   0.000  load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/Mmux__n046012 (load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/_n0460<9>)
      FDRE:D                    0.102          load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/window_sum_9
     ----------------------------------------
@@ -2672,7 +2774,7 @@ Offset:              4.814ns (Levels of Logic = 9)
 Timing constraint: Default OFFSET IN BEFORE for Clock 'load_bram_0/USER_LOGIC_I/SW_I[3]_SW_I[3]_OR_272_o'
   Total number of paths / destination ports: 67 / 8
 -------------------------------------------------------------------------
-Offset:              2.099ns (Levels of Logic = 2)
+Offset:              2.120ns (Levels of Logic = 2)
   Source:            load_bram_0/USER_LOGIC_I/fifo_search:empty (PAD)
   Destination:       load_bram_0/USER_LOGIC_I/LED_O_2 (LATCH)
   Destination Clock: load_bram_0/USER_LOGIC_I/SW_I[3]_SW_I[3]_OR_272_o falling
@@ -2681,13 +2783,13 @@ Offset:              2.099ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-    fifo:empty            19   0.000   1.072  load_bram_0/USER_LOGIC_I/fifo_search (load_bram_0/USER_LOGIC_I/fifo_empty_search)
-     LUT6:I5->O            1   0.205   0.580  load_bram_0/USER_LOGIC_I/Mmux_LED_O[7]_fifo_empty_search_MUX_1336_o_6 (load_bram_0/USER_LOGIC_I/Mmux_LED_O[7]_fifo_empty_search_MUX_1336_o_6)
-     LUT6:I5->O            1   0.205   0.000  load_bram_0/USER_LOGIC_I/SW_I<3>61 (load_bram_0/USER_LOGIC_I/LED_O[7]_fifo_empty_search_MUX_1336_o)
+    fifo:empty            20   0.000   1.093  load_bram_0/USER_LOGIC_I/fifo_search (load_bram_0/USER_LOGIC_I/fifo_empty_search)
+     LUT6:I5->O            1   0.205   0.580  load_bram_0/USER_LOGIC_I/Mmux_LED_O[7]_fifo_empty_search_MUX_1349_o_6 (load_bram_0/USER_LOGIC_I/Mmux_LED_O[7]_fifo_empty_search_MUX_1349_o_6)
+     LUT6:I5->O            1   0.205   0.000  load_bram_0/USER_LOGIC_I/SW_I<3>61 (load_bram_0/USER_LOGIC_I/LED_O[7]_fifo_empty_search_MUX_1349_o)
      LD:D                      0.037          load_bram_0/USER_LOGIC_I/LED_O_2
     ----------------------------------------
-    Total                      2.099ns (0.447ns logic, 1.652ns route)
-                                       (21.3% logic, 78.7% route)
+    Total                      2.120ns (0.447ns logic, 1.673ns route)
+                                       (21.1% logic, 78.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'm_axi_aclk'
@@ -2782,7 +2884,7 @@ Delay:               2.291ns (Levels of Logic = 1)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     INV:I->O            475   0.206   2.085  load_bram_0/USER_LOGIC_I/Bus2IP_Reset1_INV_0 (load_bram_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_rstpot)
+     INV:I->O            456   0.206   2.085  load_bram_0/USER_LOGIC_I/Bus2IP_Reset1_INV_0 (load_bram_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_rstpot)
     fifo:rst                   0.000          load_bram_0/USER_LOGIC_I/fifo_ref
     ----------------------------------------
     Total                      2.291ns (0.206ns logic, 2.085ns route)
@@ -2800,7 +2902,7 @@ Source Clock                                                               |Dest
 ---------------------------------------------------------------------------+---------+---------+---------+---------+
 S_AXI_ACLK                                                                 |    5.890|         |         |         |
 load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/curr_state[2]_PWR_72_o_Mux_25_o|         |    1.613|         |         |
-m_axi_aclk                                                                 |    3.614|         |         |         |
+m_axi_aclk                                                                 |    3.684|         |         |         |
 ---------------------------------------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/curr_state[2]_PWR_72_o_Mux_25_o
@@ -2808,7 +2910,7 @@ Clock to Setup on destination clock load_bram_0/USER_LOGIC_I/Disp_Map_Calc_inst/
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-S_AXI_ACLK     |         |         |    3.953|         |
+S_AXI_ACLK     |         |         |    4.181|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock load_bram_0/USER_LOGIC_I/SW_I[3]_SW_I[3]_OR_272_o
@@ -2832,14 +2934,14 @@ m_axi_aclk     |    6.890|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 38.00 secs
-Total CPU time to Xst completion: 38.02 secs
+Total REAL time to Xst completion: 48.00 secs
+Total CPU time to Xst completion: 47.89 secs
  
 --> 
 
-Total memory usage is 330112 kilobytes
+Total memory usage is 328772 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  587 (   0 filtered)
-Number of infos    :   79 (   0 filtered)
+Number of warnings :  677 (   0 filtered)
+Number of infos    :   80 (   0 filtered)
 

@@ -58,6 +58,7 @@
 # PORT LED_O = LEDs_8Bits_TRI_O, DIR = O, VEC = [7:0]
  PORT LED_O = load_bram_0_LED_O, DIR = O, VEC = [7:0]
  PORT SW_I = load_bram_0_SW_I, DIR = I, VEC = [4:0]
+ PORT vmodcam_0_ENABLE_pin = net_vmodcam_0_ENABLE_pin, DIR = I
 
 
 BEGIN vmodcam
@@ -92,6 +93,7 @@ BEGIN vmodcam
  PORT RESET_I = RESET
  PORT CAMA_MCLK_O = CAMA_MCLK_O
  PORT CamClk = clock_generator_0_CLKOUT4_0
+ PORT ENABLE = net_vmodcam_0_ENABLE_pin
 END
 
 BEGIN proc_sys_reset
@@ -349,6 +351,7 @@ BEGIN load_bram
  PARAMETER C_BASEADDR = 0x73200000
  PARAMETER C_HIGHADDR = 0x7320ffff
  BUS_INTERFACE M_AXI = axi4_0
+ BUS_INTERFACE S_AXI = axi4lite_0
  PORT S_AXI_ACLK = clk_100_0000MHzPLL0
  PORT m_axi_aclk = clk_100_0000MHzPLL0
  PORT LED_O = load_bram_0_LED_O
