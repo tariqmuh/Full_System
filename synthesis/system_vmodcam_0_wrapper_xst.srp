@@ -3,8 +3,8 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to C:\Users\Admin\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.28 secs
  
 --> 
 TABLE OF CONTENTS
@@ -3225,7 +3225,7 @@ m_axi_aclk     |         |         |    1.519|         |
 
 
 Total REAL time to Xst completion: 48.00 secs
-Total CPU time to Xst completion: 48.95 secs
+Total CPU time to Xst completion: 47.04 secs
  
 --> 
 

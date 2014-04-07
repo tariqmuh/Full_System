@@ -3,8 +3,8 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to C:\Users\Admin\Documents\GitHub\Full_System\synthesis\xst_temp_dir\
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.31 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.36 secs
  
 --> 
 TABLE OF CONTENTS
@@ -4500,12 +4500,12 @@ axi4_0/si_converter_bank/gen_conv_slot[5].clock_conv_inst/S_AXI_ACLK|    1.913| 
 =========================================================================
 
 
-Total REAL time to Xst completion: 42.00 secs
-Total CPU time to Xst completion: 41.99 secs
+Total REAL time to Xst completion: 37.00 secs
+Total CPU time to Xst completion: 37.35 secs
  
 --> 
 
-Total memory usage is 349892 kilobytes
+Total memory usage is 349884 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  506 (   0 filtered)
